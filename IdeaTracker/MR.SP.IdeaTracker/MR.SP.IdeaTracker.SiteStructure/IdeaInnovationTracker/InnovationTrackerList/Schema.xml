@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="InnovationTrackerList" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/InnovationTrackerList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010021D9E8A6F54047CB9BB70F4C3B2889AA" Name="Innovation Tracker Content Tpye" Group="MR.IdeaTracker.ContentTypes" Description="Innovation Tracker Content Tpye" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{00b7cdc6-3590-4447-a167-201f90d4a7fd}" DisplayName="Idea" Name="IdeaParent" /><FieldRef ID="{30dda41f-20fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="ThirdPartyNecessary" Required="TRUE" Name="IThirdPartyNecessary" /><FieldRef ID="{30dda41f-30fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="OriginalityOfInnovation" Required="TRUE" Name="IOriginalityOfInnovation" /><FieldRef ID="{30dda41f-40fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="FitwithPortfolio/startegy" Required="TRUE" Name="IFitwithPortfolio_x002f_startegy" /><FieldRef ID="{30dda41f-50fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Market Potential" Required="TRUE" Name="IMarketPotential" /><FieldRef ID="{30dda41f-60fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Reimbursement/Market Access" Required="TRUE" Name="IReimbursement_x002f_MarketAccess" /><FieldRef ID="{30dda41f-70fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Technical Feasibility" Required="TRUE" Name="ITechnicalFeasibility" /><FieldRef ID="{30dda41f-80fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Regulatory Feasibility" Required="TRUE" Name="IRegulatoryFeasibility" /><FieldRef ID="{30dda41f-90fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Clinical/Safety" Required="TRUE" Name="IClinical_x002f_Safety" /><FieldRef ID="{30dda41f-00fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Capabilities" Required="TRUE" Name="ICapabilities" /><FieldRef ID="{30dda41f-11fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Competition" Required="TRUE" Name="ICompetition" /><FieldRef ID="{30dda41f-12fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="IPR/Protection" Required="TRUE" Name="IIPR_x002f_Protection" /><FieldRef ID="{30dda41f-13fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Time to Market" Required="TRUE" Name="ITimetoMarket" /><FieldRef ID="{30dda41f-14fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Development Costs" Required="TRUE" Name="IDevelopmentCosts" /></FieldRefs></ContentType><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{00b7cdc6-3590-4447-a167-201f90d4a7fd}" Name="IdeaParent" DisplayName="Idea" Type="Lookup" Format="Dropdown" List="Lists/IdeaTrackerList" ShowField="Title" Required="FALSE" WebId="~sitecollection" Overwrite="TRUE" Group="MR.IdeaTracker.Columns" FillInChoice="FALSE"></Field><Field ID="{30dda41f-20fc-4eb0-9c7b-1bdc118ea29b}" Name="IThirdPartyNecessary" DisplayName="ThirdPartyNecessary" Type="Boolean" Required="TRUE" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-30fc-4eb0-9c7b-1bdc118ea29b}" Name="IOriginalityOfInnovation" DisplayName="OriginalityOfInnovation" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-40fc-4eb0-9c7b-1bdc118ea29b}" Name="IFitwithPortfolio_x002f_startegy" DisplayName="FitwithPortfolio/startegy" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-50fc-4eb0-9c7b-1bdc118ea29b}" Name="IMarketPotential" DisplayName="Market Potential" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-60fc-4eb0-9c7b-1bdc118ea29b}" Name="IReimbursement_x002f_MarketAccess" DisplayName="Reimbursement/Market Access" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-70fc-4eb0-9c7b-1bdc118ea29b}" Name="ITechnicalFeasibility" DisplayName="Technical Feasibility" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-80fc-4eb0-9c7b-1bdc118ea29b}" Name="IRegulatoryFeasibility" DisplayName="Regulatory Feasibility" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-90fc-4eb0-9c7b-1bdc118ea29b}" Name="IClinical_x002f_Safety" DisplayName="Clinical/Safety" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-00fc-4eb0-9c7b-1bdc118ea29b}" Name="ICapabilities" DisplayName="Capabilities" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-11fc-4eb0-9c7b-1bdc118ea29b}" Name="ICompetition" DisplayName="Competition" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-12fc-4eb0-9c7b-1bdc118ea29b}" Name="IIPR_x002f_Protection" DisplayName="IPR/Protection" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-13fc-4eb0-9c7b-1bdc118ea29b}" Name="ITimetoMarket" DisplayName="Time to Market" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field><Field ID="{30dda41f-14fc-4eb0-9c7b-1bdc118ea29b}" Name="IDevelopmentCosts" DisplayName="Development Costs" Type="Lookup" SourceID="http://schemas.microsoft.com/sharepoint/v3" Required="TRUE" List="Lists/Innovation Level Mapping" ShowField="Title" Group="MR.IdeaTracker.Column"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="IdeaParent" /><FieldRef Name="IThirdPartyNecessary" /><FieldRef Name="IOriginalityOfInnovation" /><FieldRef Name="IFitwithPortfolio_x002f_startegy" /><FieldRef Name="IMarketPotential" /><FieldRef Name="IReimbursement_x002f_MarketAccess" /><FieldRef Name="ITechnicalFeasibility" /><FieldRef Name="IRegulatoryFeasibility" /><FieldRef Name="IClinical_x002f_Safety" /><FieldRef Name="ICapabilities" /><FieldRef Name="ICompetition" /><FieldRef Name="IIPR_x002f_Protection" /><FieldRef Name="ITimetoMarket" /><FieldRef Name="IDevelopmentCosts" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

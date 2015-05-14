@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100BC86555F711B4BC88214954DAEEBE14B" Name="MRIdeaMinutesCT" Group="Custom Content Types" Description="MRIdeaMinutesCT Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{00b7cdc6-3590-4447-a167-201f90d4a7fd}" DisplayName="Idea" Required="FALSE" Name="IdeaParent" Format="Dropdown" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-271f90d4a7fd}" DisplayName="Meeting Minutes" Required="FALSE" Name="IMeetingMinutes" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

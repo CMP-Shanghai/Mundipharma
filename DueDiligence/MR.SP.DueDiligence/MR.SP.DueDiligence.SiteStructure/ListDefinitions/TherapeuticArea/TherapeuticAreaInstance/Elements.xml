@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="TherapeuticArea"
+                OnQuickLaunch="TRUE"
+                TemplateType="10012"
+                Url="Lists/TherapeuticArea"
+                Description="My List Instance">
+    
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name ="Title">Projector</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Wired Microphone</Field>
+        </Row>
+        <Row>
+          <Field Name ="Title">Wireless Microphone System</Field>
+        </Row>
+      </Rows>
+    </Data>
+    
+    
+  </ListInstance>
+</Elements>

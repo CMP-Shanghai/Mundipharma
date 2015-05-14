@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C23ABBE-8BA4-49D5-8D89-351B9506E552}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MR.SP.DueDiligence.SiteStructure</RootNamespace>
+    <AssemblyName>MR.SP.DueDiligence.SiteStructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <IncludeAssemblyInPackage>True</IncludeAssemblyInPackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Backup_Script\Backup_script.zip" />
+    <None Include="ContentType\DueDiligenceProjects\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{784dd529-c6cf-4ac3-b9a3-b560344b9856}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\SiteStructure\SiteStructure.feature">
+      <FeatureId>{1d85c515-457c-4812-8da7-959f53056212}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="ListDefinitions\BackgroundInfo\BackgroundInfoInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1a24860f-4883-4a46-9bf3-063d8b3f2f3a}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\BackgroundInfo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ec6d2d8f-ff7f-4f31-a5a8-030fa4e3d64e}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DueDiligenceArtefacts\DueDiligenceArtefactsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{741c19ec-b2e2-4b51-bcec-121a3d50d53a}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DueDiligenceArtefacts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f2f90851-9a8d-432a-a061-216fbcf60ce9}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DueDiligenceLibrary\DueDiligenceLibraryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{500817fc-347b-4687-8365-13d9c2de3397}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DueDiligenceLibrary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9c08e9d4-8989-41f9-9888-7770d650992a}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DueDiligence\DueDiligenceInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{070b4563-0f57-4ca8-abae-e9a1fa556d79}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DueDiligence\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c9ed6c3-524f-46b7-9b78-da525de26c45}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\HeadLines\HeadLinesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{22496df3-7d77-428f-97af-436c638668b7}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\HeadLines\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{511807bb-e9d3-495b-9d80-f72ccb19e523}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\KeyContacts\KeyContactsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3c64023a-3574-40e1-b8b8-3bc6cb2a97e8}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\KeyContacts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{541e777a-99ac-4bcb-a6c6-b10449c15f49}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\MailConfig\MailConfigInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8f2cb477-9581-4426-b7ae-57411116dced}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\MailConfig\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a0881681-2945-46f3-bf47-920ad6bcd9a6}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\ProjectViewConfiguration\ProjectViewConfigurationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7ba34518-72ff-4fff-a355-d817d9803a25}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\ProjectViewConfiguration\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{77d296bc-628f-4629-a216-ee233e81b6bb}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\ReportForData\ReportForDataInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4f31cd3e-0854-428a-a70a-8ad11b4371a6}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\ReportForData\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{51b37d8c-e081-46b3-95b7-599314a860aa}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\Status\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63bab1d6-77d0-47fc-9ff9-0cef3f671acc}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\Status\StatusInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef62e7b3-8b6d-4a71-95ca-fcae754905c7}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\Territory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{56cd101c-29ea-4d13-958a-0d72ee045b97}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\Territory\TerritoryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8edf38fb-46fc-43e9-9942-34dbd3564e20}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\TherapeuticArea\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2051b987-7ddd-4c8d-8895-e4afb8675570}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\TherapeuticArea\TherapeuticAreaInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3b037d40-c624-4e88-a516-0e0716fc197e}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\UsefulDocuments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6f8634de-d32e-421a-9c9f-bb0477c77e58}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\UsefulDocuments\UsefulDocumentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{19473d33-d425-47b0-b9b1-7fac6617698d}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\UsefulLinks\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f6965152-cf00-4504-b5cb-910ba6691ec8}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\UsefulLinks\UsefulLinksInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9e220616-3045-4b74-ac5e-cd2df8d5c0b6}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{6cd4a330-77fa-4b4b-b72d-55def57add3c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2be9417f-ff52-443c-bcc9-eae231ef5e6c}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\SiteColumns\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ced68dc2-a12c-4e3c-af9d-91e465895f7d}</SharePointProjectItemId>
+    </None>
+    <None Include="Templates\Templates\BackgroundInfo.stp" />
+    <None Include="Templates\Templates\Document Template.stp" />
+    <None Include="Templates\Templates\Document Type.stp" />
+    <None Include="Templates\Templates\DueDiligenceLibrary.stp" />
+    <None Include="Templates\Templates\DueDiligenceProjects.stp" />
+    <None Include="Templates\Templates\Headlines.stp" />
+    <None Include="Templates\Templates\MailConfig.stp" />
+    <None Include="Templates\Templates\ProjectViewConfiguration.stp" />
+    <None Include="Templates\Templates\ReportForData.stp" />
+    <None Include="Templates\Templates\Status.stp" />
+    <None Include="Templates\Templates\Territory.stp" />
+    <None Include="Templates\Templates\TherapeuticArea.stp" />
+    <None Include="Templates\Templates\UsefulDocuments.stp" />
+    <None Include="Templates\Templates\UsefulLinks.stp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ContentType\DueDiligenceProjects\Elements.xml" />
+    <Content Include="Elements.xml" />
+    <Content Include="Features\SiteStructure\SiteStructure.Template.xml">
+      <DependentUpon>SiteStructure.feature</DependentUpon>
+    </Content>
+    <Content Include="ListDefinitions\BackgroundInfo\BackgroundInfoInstance\Elements.xml" />
+    <Content Include="ListDefinitions\BackgroundInfo\EditDlg.htm" />
+    <Content Include="ListDefinitions\BackgroundInfo\Elements.xml" />
+    <Content Include="ListDefinitions\BackgroundInfo\FileDlg.htm" />
+    <Content Include="ListDefinitions\BackgroundInfo\Repair.aspx" />
+    <Content Include="ListDefinitions\BackgroundInfo\Schema.xml" />
+    <Content Include="ListDefinitions\BackgroundInfo\Upload.aspx" />
+    <Content Include="ListDefinitions\DueDiligenceArtefacts\DueDiligenceArtefactsInstance\Elements.xml" />
+    <Content Include="ListDefinitions\DueDiligenceArtefacts\EditDlg.htm" />
+    <Content Include="ListDefinitions\DueDiligenceArtefacts\Elements.xml" />
+    <Content Include="ListDefinitions\DueDiligenceArtefacts\FileDlg.htm" />
+    <Content Include="ListDefinitions\DueDiligenceArtefacts\Repair.aspx" />
+    <Content Include="ListDefinitions\DueDiligenceArtefacts\Schema.xml" />
+    <Content Include="ListDefinitions\DueDiligenceArtefacts\Upload.aspx" />
+    <Content Include="ListDefinitions\DueDiligenceLibrary\DueDiligenceLibraryInstance\Elements.xml" />
+    <Content Include="ListDefinitions\DueDiligenceLibrary\EditDlg.htm" />
+    <Content Include="ListDefinitions\DueDiligenceLibrary\Elements.xml" />
+    <Content Include="ListDefinitions\DueDiligenceLibrary\FileDlg.htm" />
+    <Content Include="ListDefinitions\DueDiligenceLibrary\Repair.aspx" />
+    <Content Include="ListDefinitions\DueDiligenceLibrary\Schema.xml" />
+    <Content Include="ListDefinitions\DueDiligenceLibrary\Upload.aspx" />
+    <Content Include="ListDefinitions\DueDiligence\DueDiligenceInstance\Elements.xml" />
+    <Content Include="ListDefinitions\DueDiligence\Elements.xml" />
+    <Content Include="ListDefinitions\DueDiligence\Schema.xml" />
+    <Content Include="ListDefinitions\HeadLines\Elements.xml" />
+    <Content Include="ListDefinitions\HeadLines\HeadLinesInstance\Elements.xml" />
+    <Content Include="ListDefinitions\HeadLines\Schema.xml" />
+    <Content Include="ListDefinitions\KeyContacts\Elements.xml" />
+    <Content Include="ListDefinitions\KeyContacts\KeyContactsInstance\Elements.xml" />
+    <Content Include="ListDefinitions\KeyContacts\Schema.xml" />
+    <Content Include="ListDefinitions\MailConfig\Elements.xml" />
+    <Content Include="ListDefinitions\MailConfig\MailConfigInstance\Elements.xml" />
+    <Content Include="ListDefinitions\MailConfig\Schema.xml" />
+    <Content Include="ListDefinitions\ProjectViewConfiguration\Elements.xml" />
+    <Content Include="ListDefinitions\ProjectViewConfiguration\ProjectViewConfigurationInstance\Elements.xml" />
+    <Content Include="ListDefinitions\ProjectViewConfiguration\Schema.xml" />
+    <Content Include="ListDefinitions\ReportForData\Elements.xml" />
+    <Content Include="ListDefinitions\ReportForData\ReportForDataInstance\Elements.xml" />
+    <Content Include="ListDefinitions\ReportForData\Schema.xml" />
+    <Content Include="ListDefinitions\Status\Elements.xml" />
+    <Content Include="ListDefinitions\Status\Schema.xml" />
+    <Content Include="ListDefinitions\Status\StatusInstance\Elements.xml" />
+    <Content Include="ListDefinitions\Territory\Elements.xml" />
+    <Content Include="ListDefinitions\Territory\Schema.xml" />
+    <Content Include="ListDefinitions\Territory\TerritoryInstance\Elements.xml" />
+    <Content Include="ListDefinitions\TherapeuticArea\Elements.xml" />
+    <Content Include="ListDefinitions\TherapeuticArea\Schema.xml" />
+    <Content Include="ListDefinitions\TherapeuticArea\TherapeuticAreaInstance\Elements.xml" />
+    <Content Include="ListDefinitions\UsefulDocuments\EditDlg.htm" />
+    <Content Include="ListDefinitions\UsefulDocuments\Elements.xml" />
+    <Content Include="ListDefinitions\UsefulDocuments\FileDlg.htm" />
+    <Content Include="ListDefinitions\UsefulDocuments\Repair.aspx" />
+    <Content Include="ListDefinitions\UsefulDocuments\Schema.xml" />
+    <Content Include="ListDefinitions\UsefulDocuments\Upload.aspx" />
+    <Content Include="ListDefinitions\UsefulDocuments\UsefulDocumentsInstance\Elements.xml" />
+    <Content Include="ListDefinitions\UsefulLinks\Elements.xml" />
+    <Content Include="ListDefinitions\UsefulLinks\Schema.xml" />
+    <Content Include="ListDefinitions\UsefulLinks\UsefulLinksInstance\Elements.xml" />
+    <Content Include="SiteColumns\SiteColumns\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

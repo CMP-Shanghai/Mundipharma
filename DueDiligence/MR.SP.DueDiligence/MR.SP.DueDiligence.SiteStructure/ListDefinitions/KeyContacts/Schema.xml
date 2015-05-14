@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="KeyContacts" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/KeyContacts" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010030f5c288867d49b7bd9e855e005d6da5" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{8CB38B2F-7C7F-4515-AC3D-DF759B2E0B6D}" Name="Pain" /><FieldRef ID="{FFE68075-CC26-4848-B89D-1EAE5C6B56CD}" Name="RespiratoryandInflammation" /><FieldRef ID="{D6FBFC3D-87DE-4281-BE33-32671959B23E}" Name="Oncology" /><FieldRef ID="{F7F2C209-7A9F-4DB6-92EC-98D5CFC63C3F}" Name="RoughDiamonds" /><FieldRef ID="{2C7FFB66-649E-4936-B663-BA069DEA918A}" Name="KeyContactsEmail" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{8CB38B2F-7C7F-4515-AC3D-DF759B2E0B6D}" Name="Pain" DisplayName="Pain" Type="Text" Required="FALSE" Group="Due Diligence Columns"></Field><Field ID="{FFE68075-CC26-4848-B89D-1EAE5C6B56CD}" Name="RespiratoryandInflammation" DisplayName="Respiratory and Inflammation " Type="Text" Required="FALSE" Group="Due Diligence Columns"></Field><Field ID="{D6FBFC3D-87DE-4281-BE33-32671959B23E}" Name="Oncology" DisplayName="Oncology" Type="Text" Required="FALSE" Group="Due Diligence Columns"></Field><Field ID="{F7F2C209-7A9F-4DB6-92EC-98D5CFC63C3F}" Name="RoughDiamonds" DisplayName="Rough Diamonds" Type="Text" Required="FALSE" Group="Due Diligence Columns"></Field><Field ID="{2C7FFB66-649E-4936-B663-BA069DEA918A}" Name="KeyContactsEmail" DisplayName="Email" Type="URL" Format="Hyperlink" Required="FALSE" Group="Due Diligence Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Pain" /><FieldRef Name="RespiratoryandInflammation" /><FieldRef Name="Oncology" /><FieldRef Name="RoughDiamonds" /><FieldRef Name="KeyContactsEmail" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

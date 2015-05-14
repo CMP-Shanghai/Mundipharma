@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!--<CustomAction
+  Description="Idea Tracker Actions"
+  Title="Idea Tracker Actions"
+  Id="MR.SP.IdeaTracker.ViewIdea"
+  Location="CommandUI.Ribbon.DisplayForm"
+  RegistrationId="10015"
+  RegistrationType="List"
+  Sequence="0"
+  Rights="ViewListItems"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CommandUIExtension xmlns="http://schemas.microsoft.com/sharepoint/">
+      --><!-- Define the (UI) button to be used for this custom action --><!--
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.ListForm.Display.Manage.Controls._children">
+
+          <Tab  Id="MR.SP.IdeaTracker.ActionTab"
+                Title="Idea Tracker Actions"
+                Description="Action buttons for Idea Tracker"
+                Sequence="10001">
+
+            <Scaling
+              Id="MR.SP.IdeaTracker.Action.Scaling">
+              <MaxSize
+                Id="MR.SP.IdeaTracker.Action.Scaling.MaxSize"
+                GroupId="MR.SP.IdeaTracker.ActionGroups.Buttons"
+                Size="OneLargeTwoMedium"/>
+              <Scale
+                Id="MR.SP.IdeaTacker.Action.Scaling.CustomTabScaling"
+                GroupId="MR.SP.IdeaTracker.ActionGroups.Buttons"
+                Size="OneLargeTwoMedium" />
+            </Scaling>
+            <Groups Id="MR.SP.IdeaTracker.ActionGroups">
+              <Group
+                Id="MR.SP.IdeaTracker.ActionGroups.Buttons"
+                Description="Action buttons for Idea Tracker"
+                Title="Actions"
+                Sequence="10002"
+                Template="MR.SP.IdeaTracker.Templates.ActionButtonTemplate">
+                <Controls Id="Ribbon.CustomTabExample.CustomGroupExample.Controls">
+                  <Button
+                    Id="MR.SP.IdeaTracker.Action.Buttons.AddMeeting"
+                    Command="MR.SP.IdeaTracker.Action.Buttons.AddMeeting"
+                    Sequence="10003"
+                    Description="Add meeting to current Idea"
+                    LabelText="Add Meeting"
+                    TemplateAlias="cust1"
+                    Alt="IdeaTracker Actions"
+                    Image32by32="/_layouts/1033/images/formatmap32x32.png" Image32by32Top="-320" Image32by32Left="-64"
+                    Image16by16="/_layouts/1033/images/formatmap16x16.png" Image16by16Top="-48" Image16by16Left="-80"
+                    ToolTipTitle="$Resources:Xerox.Publishing.BusinessProcess,TriviaNewEditLabel;"
+                    ToolTipDescription="$Resources:Xerox.Publishing.BusinessProcess,TriviaToolTipDescription;"
+                    />
+
+                </Controls>
+              </Group>
+            </Groups>
+          </Tab>
+
+
+
+
+          <Button Id="Ribbon.ListForm.Display.NewEditForm"
+          Alt="IdeaTracker Actions"
+          Command="Add"
+          Image32by32="/_layouts/1033/images/formatmap32x32.png" Image32by32Top="-320" Image32by32Left="-64"
+          Image16by16="/_layouts/1033/images/formatmap16x16.png" Image16by16Top="-48" Image16by16Left="-80"
+          Sequence="0"
+          LabelText="$Resources:Xerox.Publishing.BusinessProcess,TriviaNewEditLabel;"
+          Description="$Resources:Xerox.Publishing.BusinessProcess,TriviaNewEditLabel;"
+          TemplateAlias="o1"
+          ToolTipTitle="$Resources:Xerox.Publishing.BusinessProcess,TriviaNewEditLabel;"
+          ToolTipDescription="$Resources:Xerox.Publishing.BusinessProcess,TriviaToolTipDescription;"/>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="MR.SP.IdeaTracker.Templates.ActionButtonTemplate">
+            <Layout
+              Title="OneLargeTwoMedium"
+              LayoutTitle="OneLargeTwoMedium">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust1" />
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="TwoRow">
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust2" />
+                </Row>
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust3" />
+                </Row>
+              </Section>
+            </Layout>
+          </GroupTemplate>
+        </CommandUIDefinition>
+
+
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        --><!-- Define the action expected on the button click --><!--
+        <CommandUIHandler Command="NewEditFormAction" CommandAction="javascript:GenerateTriviaEditForm('{ListId}','{ItemId}')" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction
+    Id="XeroxRibbon.ViewToolbar"
+    RegistrationType="List"
+    RegistrationId="102"
+    Location="ViewToolbar"
+    Sequence="1000"
+    Title="$Resources:Xerox.Publishing.BusinessProcess,SurveyNewEditLabel;">
+    <UrlAction Url="javascript:GenerateSurveyEditForm('{ListId}');return false"/>
+  </CustomAction>
+  <CustomAction
+    Id="XeroxRibbon.Script"
+    Location="ScriptLink"
+    ScriptSrc ="/_layouts/Xerox.Publishing.CustomListForm/XeroxRibbon.js"/>-->
+</Elements>

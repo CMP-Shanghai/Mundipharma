@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="03bf6f46-5711-4f21-80b7-16750cd9b935" solutionId="03bf6f46-5711-4f21-80b7-16750cd9b935" resetWebServer="false" description="framework solution for DueDiligence solutions" sharePointProductVersion="15.0" name="MR.SP.DueDiligence.Framework" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="8f476706-6920-40ad-a304-de18965c9641" />
+  </features>
+</package>

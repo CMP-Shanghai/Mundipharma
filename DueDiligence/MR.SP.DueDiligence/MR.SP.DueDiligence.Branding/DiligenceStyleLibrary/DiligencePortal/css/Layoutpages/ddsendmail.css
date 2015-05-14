@@ -1,0 +1,10 @@
+﻿.tdFirst {
+    text-align: right;
+    padding-right:8px;
+    background-color:#1780C7;
+    color: white;
+}
+
+.dd_send_mail_template_row {
+    display:none;
+}

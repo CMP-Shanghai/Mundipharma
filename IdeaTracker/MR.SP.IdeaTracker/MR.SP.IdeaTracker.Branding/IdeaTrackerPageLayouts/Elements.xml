@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="IdeaTrackerPageLayouts" Url="_catalogs/masterpage" RootWebOnly="TRUE" Path="LayoutsGalleryModule">
+    <File Path="ITLandingLayout.aspx" Url="ITLandingLayout.aspx" Type="GhostableInLibrary" >
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="Title" Value="IderTracker Landing Layout" />
+    </File>
+    <File Path="ITDetailsLayout.aspx" Url="ITDetailsLayout.aspx" >
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="Title" Value="IderTracker Detail Page Layout" />
+    </File>
+  </Module>
+</Elements>

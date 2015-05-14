@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01008F96B0664F2D407086051384D0416ECB" Name="MRIdeaFeedbackCT" Group="Custom Content Types" Description="IdeaFeedbackCT Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-001f90d4a7fd}" DisplayName="Description" Required="FALSE" Name="IDescription" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

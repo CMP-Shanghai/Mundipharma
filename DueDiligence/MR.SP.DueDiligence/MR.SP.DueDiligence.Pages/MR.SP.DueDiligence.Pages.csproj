@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MR.SP.DueDiligence.Pages</RootNamespace>
+    <AssemblyName>MR.SP.DueDiligence.Pages</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseFeatureReceiver.cs" />
+    <Compile Include="CONTROLTEMPLATES\CustomProjectForm_Display.ascx.cs">
+      <DependentUpon>CustomProjectForm_Display.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\CustomProjectForm_Display.ascx.designer.cs">
+      <DependentUpon>CustomProjectForm_Display.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\CustomProjectForm_Edit.ascx.cs">
+      <DependentUpon>CustomProjectForm_Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\CustomProjectForm_Edit.ascx.designer.cs">
+      <DependentUpon>CustomProjectForm_Edit.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\CustomProjectForm_New.ascx.cs">
+      <DependentUpon>CustomProjectForm_New.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\CustomProjectForm_New.ascx.designer.cs">
+      <DependentUpon>CustomProjectForm_New.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\CustomPublicForm.ascx.cs">
+      <DependentUpon>CustomPublicForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\CustomPublicForm.ascx.designer.cs">
+      <DependentUpon>CustomPublicForm.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateSitePage.cs" />
+    <Compile Include="Features\MR.SP.DueDiligence.FunctionalAreaPages\MR.SP.DueDiligence.EventReceiver.cs">
+      <DependentUpon>MR.SP.DueDiligence.FunctionalAreaPages.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MR.SP.DueDiligence.IndicationInsights\MR.SP.DueDiligence.EventReceiver.cs">
+      <DependentUpon>MR.SP.DueDiligence.IndicationInsights.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MR.SP.DueDiligence.Pages\MR.SP.DueDiligence.EventReceiver.cs">
+      <DependentUpon>MR.SP.DueDiligence.Pages.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\BaseDueDiligencePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\KeyContacts.aspx.cs">
+      <DependentUpon>KeyContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\KeyContacts.aspx.designer.cs">
+      <DependentUpon>KeyContacts.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\mail\SendMail.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\mail\SendMail.aspx.designer.cs" />
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\ProjectList\view\DueDiligenceReport.aspx.cs">
+      <DependentUpon>DueDiligenceReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\ProjectList\view\DueDiligenceReport.aspx.designer.cs">
+      <DependentUpon>DueDiligenceReport.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\ProjectList\view\ProjectsByData.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\MR.SP.DueDiligence.Pages\ProjectList\view\ProjectsByDate.aspx.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e0878e0c-c622-4ca5-923c-4c6e5a8b04ab}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.IndicationInsights\MR.SP.DueDiligence.IndicationInsights.feature">
+      <FeatureId>{5ecb1cd4-ddee-4fb9-a9c5-de68487fef03}</FeatureId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.FunctionalAreaPages\MR.SP.DueDiligence.FunctionalAreaPages.feature">
+      <FeatureId>{8946ef10-a579-4516-93d8-83a4b19e2c7e}</FeatureId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.Pages\MR.SP.DueDiligence.Pages.feature">
+      <FeatureId>{da3e146c-3892-4c5a-9aa2-c3ff99c8fd81}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{66bc1d21-bc8a-4bf2-9420-6aba61b4893e}</SharePointProjectItemId>
+    </None>
+    <None Include="DiligencePages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{89ab88c1-31a4-45ff-9b6b-0d6a8cd36883}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{ec9f671d-5d3a-4243-bb2b-3aeb5ae1d313}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Layouts\MR.SP.DueDiligence.Pages\CSS\" />
+    <Folder Include="Layouts\MR.SP.DueDiligence.Pages\JS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CONTROLTEMPLATES\CustomProjectForm_Display.ascx" />
+    <Content Include="CONTROLTEMPLATES\CustomProjectForm_Edit.ascx" />
+    <Content Include="CONTROLTEMPLATES\CustomProjectForm_New.ascx" />
+    <Content Include="CONTROLTEMPLATES\CustomPublicForm.ascx" />
+    <Content Include="Features\MR.SP.DueDiligence.IndicationInsights\MR.SP.DueDiligence.IndicationInsights.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.IndicationInsights.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\MR.SP.DueDiligence.FunctionalAreaPages\MR.SP.DueDiligence.FunctionalAreaPages.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.FunctionalAreaPages.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\MR.SP.DueDiligence.Pages\MR.SP.DueDiligence.Pages.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.Pages.feature</DependentUpon>
+    </Content>
+    <Content Include="DiligencePages\AML.aspx" />
+    <Content Include="DiligencePages\Cachexia-Insights---Today-and-Tomorrow-.aspx" />
+    <Content Include="DiligencePages\CLL-Insights.aspx" />
+    <Content Include="DiligencePages\Diligence-Process.aspx" />
+    <Content Include="DiligencePages\Elements.xml" />
+    <Content Include="DiligencePages\Insights-in-Anticoagulant-Reversal-Agents---Today-and-Tomorrow-.aspx" />
+    <Content Include="DiligencePages\NHL-Insights.aspx" />
+    <Content Include="DiligencePages\View-Background-Information.aspx" />
+    <Content Include="Layouts\MR.SP.DueDiligence.Pages\KeyContacts.aspx" />
+    <Content Include="Layouts\MR.SP.DueDiligence.Pages\mail\SendMail.aspx" />
+    <Content Include="Layouts\MR.SP.DueDiligence.Pages\ProjectList\view\DueDiligenceReport.aspx" />
+    <Content Include="Layouts\MR.SP.DueDiligence.Pages\ProjectList\view\ProjectsByData.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MR.SP.DueDiligence.WebPart\MR.SP.DueDiligence.WebPart.csproj">
+      <Project>{1f269d9b-52f3-458c-be9d-59f3154064e6}</Project>
+      <Name>MR.SP.DueDiligence.WebPart</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MR.SP.DueDiligence\MR.SP.DueDiligence.Framework.csproj">
+      <Project>{67a8dcb7-aa94-4daf-adf0-85854a55e149}</Project>
+      <Name>MR.SP.DueDiligence.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6cd4a330-77fa-4b4b-b72d-55def57add3c" solutionId="6cd4a330-77fa-4b4b-b72d-55def57add3c" resetWebServer="true" sharePointProductVersion="15.0" name="MR.SP.DueDiligence.SiteStructure" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="1d85c515-457c-4812-8da7-959f53056212" />
+  </features>
+</package>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8a0de753-0cd8-4645-8118-4d1c8e034f0c" solutionId="8a0de753-0cd8-4645-8118-4d1c8e034f0c" resetWebServer="false" sharePointProductVersion="15.0" name="MR.SP.IdeaTracker.Branding" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="3e098c5e-22da-441b-9092-e6908d3ff44d" />
+    <featureReference itemId="de925750-cd6c-440e-b254-5b4326325976" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="bf242056-6cf6-4689-9ad3-ce9475f753d2" />
+  </projectItems>
+</package>

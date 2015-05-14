@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="a6d0ccd4-4b66-4713-a2f4-cea52c8540bd" 
+        solutionId="a6d0ccd4-4b66-4713-a2f4-cea52c8540bd" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="MR.SP.IdeaTracker.Infrastructure"
+        sharePointProductVersion="15.0">
+</package>

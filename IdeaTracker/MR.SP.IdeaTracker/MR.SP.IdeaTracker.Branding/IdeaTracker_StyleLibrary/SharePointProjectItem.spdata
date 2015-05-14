@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="IdeaTracker_StyleLibrary\" Type="ElementManifest" />
+    <ProjectItemFile Source="IdeaTracker\scripts\knockout-3.2.0.js" Target="IdeaTracker_StyleLibrary\IdeaTracker\scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\scripts\jquery-1.11.1.min.js" Target="IdeaTracker_StyleLibrary\IdeaTracker\scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\scripts\jquery-ui.min.js" Target="IdeaTracker_StyleLibrary\IdeaTracker\scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\css\jquery-ui.theme.min.css" Target="IdeaTracker_StyleLibrary\IdeaTracker\css\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\css\jquery-ui.min.css" Target="IdeaTracker_StyleLibrary\IdeaTracker\css\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\css\jquery-ui.structure.min.css" Target="IdeaTracker_StyleLibrary\IdeaTracker\css\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_diagonals-thick_18_b81900_40x40.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_diagonals-thick_20_666666_40x40.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_flat_10_000000_40x100.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_glass_65_ffffff_1x400.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_glass_100_f6f6f6_1x400.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_glass_100_fdf5ce_1x400.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_gloss-wave_35_f6a828_500x100.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-icons_228ef1_256x240.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-icons_222222_256x240.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-icons_ef8c08_256x240.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-icons_ffd27a_256x240.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\ui-icons_ffffff_256x240.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Icons\ICONEXCEL.jpg" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Icons\ICONOUTLOOK.jpg" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Icons\ICONPDF.jpg" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Icons\ICONPPT.jpg" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Icons\ICONUNKNOWN.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Icons\ICONWORD.jpg" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\BlackBg.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\BlackC.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\BlackE.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\BlackO.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\BlackR.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\BlackS.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\GrayBg.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\GrayC.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\GrayE.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\GrayO.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\GrayR.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Stages\GrayS.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Classification.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\images\Decision.png" Target="IdeaTracker_StyleLibrary\IdeaTracker\images\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\css\IdeaCSS.css" Target="IdeaTracker_StyleLibrary\IdeaTracker\css\" Type="ElementFile" />
+    <ProjectItemFile Source="IdeaTracker\css\ideaviewCSS.css" Target="IdeaTracker_StyleLibrary\IdeaTracker\css\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="IdeaTracker_SitePages" Url="SitePages" RootWebOnly="false">
+    <File Path="IdeaTracker_SitePages\SitePages\IdeaViewPage.aspx" Url="IdeaViewPage.aspx" Type="GhostableInLibrary"/>
+  </Module>
+</Elements>

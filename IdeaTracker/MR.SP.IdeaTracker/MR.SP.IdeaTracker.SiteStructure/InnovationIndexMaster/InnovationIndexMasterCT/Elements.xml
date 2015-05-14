@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01003358B96582944447BA02EE166B4C1F89" Name="Innovation Index Maste Content Type" Group="MR.IdeaTracker.ContentTypes" Description="Innovation Index Maste Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{a9560170-1744-472a-9c8d-e5f9c02efcad}" DisplayName="Commercial" Required="TRUE" Name="ICommercial" />
+      <FieldRef ID="{a9560170-2744-472a-9c8d-e5f9c02efcad}" DisplayName="Feasibilty" Required="TRUE" Name="IFeasibilty" />
+      <FieldRef ID="{a9560170-3744-472a-9c8d-e5f9c02efcad}" DisplayName="Efforts" Required="TRUE" Name="IEfforts" />
+      <FieldRef ID="{a9560170-4744-472a-9c8d-e5f9c02efcad}" DisplayName="Competitiveness" Required="TRUE" Name="ICompetitiveness" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

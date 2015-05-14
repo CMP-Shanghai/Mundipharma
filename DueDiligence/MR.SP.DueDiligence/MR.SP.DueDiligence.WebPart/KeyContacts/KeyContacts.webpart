@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="MR.SP.DueDiligence.WebPart.KeyContacts.KeyContacts, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">KeyContacts</property>
+        <property name="Description" type="string">Key Contacts</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

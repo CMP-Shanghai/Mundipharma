@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Navigations>
+  <Navigation InheritCurrent='false' ShowSiblings='false' CurrentIncludeSubSites='false' CurrentIncludePages='false' CurrentDynamicChildLimit='30' OrderingMethod='Manual'>
+    <Headings>
+      <Heading Title='Home' Url='{WebUrl}' spAudienceTitles='' spGroupNames='' adGroupNames='' Description='' Target='_self'>
+      </Heading>
+      <Heading Title='New Project' Url='{WebUrl}/Lists/DueDiligenceProjects/UD_NewForm.aspx?Source={WebUrl}' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'>
+      </Heading>
+      <Heading Title='Help &amp; FAQ' Url='{WebUrl}/UsefulDocuments/Questions%20and%20Document%20Requests.xlsx' spAudienceTitles='' spGroupNames='' adGroupNames='' Description='' Target='_self'>
+      </Heading>
+      <Heading Title='Key Contacts' Url='{WebUrl}/_layouts/15/MR.SP.DueDiligence.Pages/KeyContacts.aspx' spAudienceTitles='' spGroupNames='' adGroupNames='' Description='' Target='_self'>
+      </Heading>
+      <Heading Title='KPI&apos;s' Url='{WebUrl}/_layouts/15/MR.SP.DueDiligence.Pages/ProjectList/view/ProjectsByData.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'>
+      </Heading>
+      <Heading Title='Due Diligence Report' Url='{WebUrl}/_layouts/15/MR.SP.DueDiligence.Pages/ProjectList/view/DueDiligenceReport.aspx' spAudienceTitles='' spGroupNames='' adGroupNames='' Description='' Target='_self'>
+      </Heading>
+      <Heading Title='Document Template' Url='{WebUrl}/Document%20Template/Forms/AllItems.aspx' spAudienceTitles='' spGroupNames='' adGroupNames='' Description='' Target='_self'>
+      </Heading>
+      <Heading Title='Projects' Url='#' spAudienceTitles='' spGroupNames='' adGroupNames='' Description='' Target='_self'>        
+        <NavLink Title='All Projects' Url='{WebUrl}/SitePages/All%20Projects.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators,ProjectUsers,BD Lead,Commercial Head,R&amp;D Executive Director' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Ongoing Projects' Url='{WebUrl}/SitePages/Ongoing%20Projects.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators,ProjectUsers,BD Lead,Commercial Head,R&amp;D Executive Director' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Approved Projects' Url='{WebUrl}/SitePages/Approved%20Projects.aspx' spAudienceTitles='' spGroupNames='' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Non-Progressed Projects' Url='{WebUrl}/SitePages/Non-Approved%20Projects.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators,ProjectUsers,BD Lead,Commercial Head,R&amp;D Executive Director' adGroupNames='' Description='' Target='_self'></NavLink>
+      </Heading>
+      <Heading Title='Configuration' Url='#' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'>
+        <NavLink Title='Headlines' Url='{WebUrl}/Lists/Headlines/AllItems.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Therapeutic Area' Url='{WebUrl}/Lists/TherapeuticArea/AllItems.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Territory' Url='{WebUrl}/Lists/Territory/AllItems.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Status' Url='{WebUrl}/Lists/Status/AllItems.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Background Document Type' Url='{WebUrl}/Lists/Docuemnt%20Type/AllItems.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Indication Document Type' Url='{WebUrl}/Lists/Indication%20Document%20Type/AllItems.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Indication Insight' Url='{WebUrl}/Lists/Indication%20Insight/AllItems.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Functional Areas' Url='{WebUrl}/Lists/Functional%20Areas/AllItems.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Visitor HomePage' Url='{WebUrl}/Pages/NormalUserLandingPage.aspx' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='BD Lead' Url='{WebUrl}/_layouts/15/people.aspx?MembershipGroupId=56' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Commercial Head' Url='{WebUrl}/_layouts/15/people.aspx?MembershipGroupId=57' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='R&amp;D Executive Director' Url='{WebUrl}/_layouts/15/people.aspx?MembershipGroupId=58' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+        <NavLink Title='Due Diligence Administrators' Url='{WebUrl}/_layouts/15/people.aspx?MembershipGroupId=54' spAudienceTitles='' spGroupNames='Due Diligence Administrators' adGroupNames='' Description='' Target='_self'></NavLink>
+      </Heading>
+    </Headings>
+  </Navigation>
+</Navigations>

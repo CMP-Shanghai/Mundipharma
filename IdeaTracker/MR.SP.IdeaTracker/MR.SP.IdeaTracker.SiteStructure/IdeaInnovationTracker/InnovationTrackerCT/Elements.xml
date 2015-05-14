@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010021D9E8A6F54047CB9BB70F4C3B2889AA" Name="Innovation Tracker Content Tpye" Group="MR.IdeaTracker.ContentTypes" Description="Innovation Tracker Content Tpye" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{00b7cdc6-3590-4447-a167-201f90d4a7fd}" DisplayName="Idea" Name="IdeaParent" />
+      <FieldRef ID="{30dda41f-20fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="ThirdPartyNecessary" Required="TRUE" Name="IThirdPartyNecessary" />
+      <FieldRef ID="{30dda41f-30fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="OriginalityOfInnovation" Required="TRUE" Name="IOriginalityOfInnovation" />
+      <FieldRef ID="{30dda41f-40fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="FitwithPortfolio/startegy" Required="TRUE" Name="IFitwithPortfolio_x002f_startegy" />
+      <FieldRef ID="{30dda41f-50fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Market Potential" Required="TRUE" Name="IMarketPotential" />
+      <FieldRef ID="{30dda41f-60fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Reimbursement/Market Access" Required="TRUE" Name="IReimbursement_x002f_MarketAccess" />
+      <FieldRef ID="{30dda41f-70fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Technical Feasibility" Required="TRUE" Name="ITechnicalFeasibility" />
+      <FieldRef ID="{30dda41f-80fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Regulatory Feasibility" Required="TRUE" Name="IRegulatoryFeasibility" />
+      <FieldRef ID="{30dda41f-90fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Clinical/Safety" Required="TRUE" Name="IClinical_x002f_Safety" />
+      <FieldRef ID="{30dda41f-00fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Capabilities" Required="TRUE" Name="ICapabilities" />
+      <FieldRef ID="{30dda41f-11fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Competition" Required="TRUE" Name="ICompetition" />
+      <FieldRef ID="{30dda41f-12fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="IPR/Protection" Required="TRUE" Name="IIPR_x002f_Protection" />
+      <FieldRef ID="{30dda41f-13fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Time to Market" Required="TRUE" Name="ITimetoMarket" />
+      <FieldRef ID="{30dda41f-14fc-4eb0-9c7b-1bdc118ea29b}" DisplayName="Development Costs" Required="TRUE" Name="IDevelopmentCosts" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

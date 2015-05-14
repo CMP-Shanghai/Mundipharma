@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="ProjectViewConfiguration" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ProjectViewConfiguration" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01002aee278a0063402d8278b35422355826" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{4A16C557-C175-4ACB-9D41-D8127CCB9542}" Name="DisplayFields" /><FieldRef ID="{CAF3B275-F590-45B7-93C1-BD54FAB838BF}" Name="RowLimit" /><FieldRef ID="{9F553794-DAB6-4DAF-967D-A95DDA262158}" Name="ViewQuery" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{4A16C557-C175-4ACB-9D41-D8127CCB9542}" Name="DisplayFields" DisplayName="DisplayFields" Type="Note" Required="TRUE" Group="Due Diligence Columns"></Field><Field ID="{CAF3B275-F590-45B7-93C1-BD54FAB838BF}" Name="RowLimit" DisplayName="RowLimit" Type="Number" Required="TRUE" Group="Due Diligence Columns"></Field><Field ID="{9F553794-DAB6-4DAF-967D-A95DDA262158}" Name="ViewQuery" DisplayName="ViewQuery" Type="Note" Required="TRUE" Group="Due Diligence Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="DisplayFields" /><FieldRef Name="RowLimit" /><FieldRef Name="ViewQuery" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

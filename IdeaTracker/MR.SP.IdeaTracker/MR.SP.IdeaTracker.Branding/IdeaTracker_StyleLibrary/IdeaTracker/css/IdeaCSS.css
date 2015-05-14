@@ -1,0 +1,37 @@
+﻿body
+{
+}
+
+.divBox {
+    border:solid 1px #eeeeee; min-height:400px; width:350px;
+}
+.stageTable{
+    border-collapse:collapse; border-spacing:0px; border:solid 0px Black; width:100%;
+}
+    .stageTable TD {
+        text-align:center;
+    }
+    .stageTable .splitTD {
+        height:12px; line-height:5px;
+    }
+    .stageTable span {
+        width:220px; height:22px; color:#ffffff; font-weight:bold; display:inline-block; margin:5px 5px 5px 5px;
+    }
+    .stageTable .blueSpan {
+        background-color:#5b9bd5;
+    }
+    .stageTable .orangeSpan {
+        background-color:#ed7d31;
+    }
+    .stageTable .purpleSpan {
+        background-color:#98208f;
+    }
+    .stageTable .oliverSpan {
+        background-color:#827d54;
+    }
+
+    
+
+    .stageTable .actionBox {
+        border:solid 1px #eeeeee; min-height:400px; width:300px;
+    }

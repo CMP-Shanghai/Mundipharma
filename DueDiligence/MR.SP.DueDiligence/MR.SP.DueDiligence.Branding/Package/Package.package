@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="58f03d02-d6e4-4ff6-97fc-85bdad53b117" solutionId="58f03d02-d6e4-4ff6-97fc-85bdad53b117" resetWebServer="false" sharePointProductVersion="15.0" name="MR.SP.DueDiligence.Branding" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b8adf682-7413-4947-aec8-20b13a9aeccd" />
+    <featureReference itemId="e1a95789-2575-40cd-b6b5-abec940e26e0" />
+    <featureReference itemId="c66b4fb5-beb1-427f-ae2f-7664f1a84885" />
+    <featureReference itemId="65ffb848-5ebb-4218-8b0c-797be23f5869" />
+    <featureReference itemId="75b2c1c4-b43a-43f2-8441-a70a1b67bf55" />
+    <featureReference itemId="5490d69d-b8e6-465a-8e2f-8999c3d63b45" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="08dbb186-22d8-4487-878f-67937d34d9c5" />
+  </projectItems>
+</package>

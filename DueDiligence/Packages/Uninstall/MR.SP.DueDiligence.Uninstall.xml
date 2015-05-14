@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deployment>
+  <WebApplication>http://xde7109sp031:2012</WebApplication>
+  <SiteCollection></SiteCollection>
+  <Web>/</Web>
+
+  <Solutions >
+    
+
+    <Solution sequence ="3" name="Xerox.Publishing.Branding.wsp" IsDeploy="False" predelete="" postdelete="" preinstall="" postinstall="" globaldeploy="false" webApplication="">
+      <Features>
+        <Feature FeatureSequence="1" Scope="Site" Name="Xerox Publishing Branding"  Id="2e6de4ad-a1ac-4048-afd9-f9d9778af178"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="SetMasterPage\InstallMain.ps1" />
+        <Feature FeatureSequence="2" Scope="Site" Name="Xerox Publishing List Creation Receiver"  Id="99acca0c-21a3-4256-aa94-75565b8742e4"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+      </Features>
+    </Solution>
+
+    <Solution sequence ="8" name="Xerox.Publishing.Blog.wsp" IsDeploy="False" predelete="" postdelete="" preinstall="" postinstall="" globaldeploy="false" webApplication="" >
+      <Features>
+        <Feature FeatureSequence="0" Scope="Site" Name="Publishing.Blog"  Id="e7623d00-7758-4951-bf01-d5d22b384854"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+        <Feature FeatureSequence="1" Scope="Site" Name="Publishing.BlogProvision"  Id="f8b23088-427c-4076-8627-e191643e94f8"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+      </Features>
+    </Solution>
+
+  </Solutions>
+
+</Deployment>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100AABBBEBD12DC4F71815A0E6760ECF3C1" Name="MRIdeaFeedsCT" Group="Custom Content Types" Description="IdeaFeeds Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{00b7cdc6-3590-4447-a167-201f90d4a7fd}" DisplayName="Idea" Required="FALSE" Name="IdeaParent" Format="Dropdown" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-000190d4a7fd}" DisplayName="Operator" Name="IOperator" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

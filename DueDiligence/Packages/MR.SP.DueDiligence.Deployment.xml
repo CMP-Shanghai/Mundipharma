@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deployment>
+
+  <WebApplication>http://xde7109sp031:2013</WebApplication>
+  <!--
+  Site Collection path for deploy to publishing site
+  Please leave blank if you want to deploy to the root site collection of web application such as http://xde7109sp031:2012/
+  -->
+  <SiteCollection></SiteCollection>
+  <Web>/</Web>
+  <!--
+  ParameterName:CreateSCCTHSiteCollections
+    Whether the Publishing site and content hub site collection should be created by this deployment process
+    Some feature will also enabled on these site collection whatever the site collection is newly created or had already been there
+  -->
+  <CreateSiteCollection>False</CreateSiteCollection>
+  <!--
+  ParameterName:OnContentDeployment
+    Flag for whether this is a deployment process to deploy on the target of content deployment site collection. 
+    Please set it to fasle if you just want to deploy into source site collection of content deployment site colelction.
+  -->
+  <OnContentDeployment>False</OnContentDeployment>
+  <!--
+    All the solutions to be deployed on the farm / web application / site collection / web
+    Parameter Name: retractfromwebapplications
+    All the web application that the wsp packages will be retractked, please put all the web applications which had already deploy the packages.
+    Parameter Name: deploytargetwebapplications
+    All the web application that the wsp will be deployed. 
+  -->
+  <Solutions >
+
+    <Solution sequence ="0" name="MR.SP.DueDiligence.Framework.wsp" IsDeploy="True" predelete="" postdelete="" preinstall="" postinstall="" globaldeploy="true" webApplication="" />
+
+
+    <Solution sequence ="1" name="MR.SP.DueDiligence.WebPart.wsp" IsDeploy="True" predelete="" postdelete="" preinstall="" postinstall="" globaldeploy="false" webApplication="">
+      <Features>
+        <Feature FeatureSequence="1" Scope="Site" Name="MR.SP.DueDiligence.WebPart"  Id="78b60cb6-e353-4bce-9efc-8ce147260052"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+      </Features>
+    </Solution>
+
+    <Solution sequence ="2" name="MR.SP.DueDiligence.Branding.wsp" IsDeploy="True" predelete="" postdelete="" preinstall="" postinstall="" globaldeploy="true" webApplication="">
+      <Features>
+        <Feature FeatureSequence="1" Scope="Site" Name="MR.SP.DueDiligence.Branding"  Id="85150bc9-1855-4734-a736-04efab4fa961"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+        <Feature FeatureSequence="2" Scope="Web" Name="MR.SP.DueDiligence.ApplyMasterPage"  Id="c4a242f6-9b69-479b-b0de-51b79d447d6b"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+      </Features>
+    </Solution>
+
+    <Solution sequence ="3" name="MR.SP.DueDiligence.EventReceiver.wsp" IsDeploy="True" predelete="" postdelete="" preinstall="" postinstall="" globaldeploy="true" webApplication="">
+      <Features>
+        <Feature FeatureSequence="1" Scope="Web" Name="MR.SP.DueDiligence.Receiver"  Id="c1cbc1ef-976e-4d28-bced-be7431ec109a"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+      </Features>
+    </Solution>
+
+    <Solution sequence ="4" name="MR.SP.DueDiligence.Pages.wsp" IsDeploy="True" predelete="" postdelete="" preinstall="" postinstall="" globaldeploy="true" webApplication="" >
+      <Features>
+        <Feature FeatureSequence="1" Scope="Web" Name="MR.SP.DueDiligence.Pages"  Id="2b2278c8-620c-445d-ad02-35e898873313"  Url=""  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+      </Features>
+    </Solution>
+    
+
+  </Solutions>
+
+  <PostDeploymentActivateFeatures>
+    <!--
+    <Feature FeatureSequence="1" Scope="Web" Name="MR.SP.DueDiligence.LandingPage"  Id="d7d70f2a-ea4f-4da3-b0b8-feffdbbf7092"  Url="/en-US"  IsActivate="true" predeactivate="" postdeactivate="" preactivate="" postactivate="" />
+    -->
+  </PostDeploymentActivateFeatures>
+
+  <!--
+  Parameter Name:UpdateSitePermission
+	Wheter the deployment process will update the site permission
+	   If "Yes", please also ensure 
+  -->
+  <UpdateSitePermission>True</UpdateSitePermission>
+
+</Deployment>

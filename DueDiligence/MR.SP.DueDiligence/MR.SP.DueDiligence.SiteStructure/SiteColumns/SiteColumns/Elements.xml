@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{C6ACE0A7-8753-446A-8C6D-6371A061B0E6}"
+       Name="Opportunity"
+       DisplayName="Opportunity"
+       Type="Text"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+  
+  <Field
+       ID="{2B7E06D3-0F90-4E87-BA8F-1539B61ADE46}"
+       Name="OpportunityDescription"
+       DisplayName="Opportunity Description"
+       Type="Note"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+  
+  <Field
+         ID="{C7F0CE17-A44C-43F7-9EE2-7776E5A9A3B7}"
+         Name="ProjectForm"
+         DisplayName="Form"
+         Type="Choice"
+         Required="TRUE"
+         Format="RadioButtons"
+         Group="Due Diligence Columns">
+    <CHOICES>
+      <CHOICE>Full</CHOICE>
+      <CHOICE>Short</CHOICE>
+    </CHOICES>
+    <Default></Default>
+  </Field>
+  
+  <Field
+       ID="{A2AEC20F-0C8E-4E39-BA74-EDD0DD09DB0F}"
+       Name="ProjectStart"
+       DisplayName="Start"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+  
+  <Field
+       ID="{50A5D320-BB12-4D97-8038-D4B226711365}"
+       Name="PlannedEnd"
+       DisplayName="Planned End"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+      ID="{373023D3-3EF8-4D0E-952A-49AF17155CFC}"
+      Name="ProjectCompany"
+      DisplayName="Company"
+      Type="Note"
+      Required="TRUE"
+      Group="Due Diligence Columns">
+  </Field>
+  
+  <Field
+       ID="{41B8BD3D-7285-4268-98EA-E9149DFC2242}"
+       Name="OnsiteVisitDate"
+       DisplayName="Onsite Visit Date"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{39972208-FF11-4467-9F79-0640CC2530D3}"
+       Name="BDLead"
+       DisplayName="BD Lead"
+       Type="UserMulti"
+       UserSelectionMode="PeopleOnly"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{9E64B320-EBB7-4D4E-9FF2-8A03A28271CC}"
+       Name="CommercialHead"
+       DisplayName="Commercial Head"
+       Type="UserMulti"
+       UserSelectionMode="PeopleOnly"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{D231D8A2-F08A-44A2-8A2F-B83A81CC8C12}"
+       Name="RandDExecutiveDirector"
+       DisplayName="R and D Executive Director"
+       Type="UserMulti"
+       UserSelectionMode="PeopleOnly"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{82F03D78-7B36-4061-8E82-917A952AEEA0}"
+       Name="ProjectParticipants"
+       DisplayName="Participants"
+       Type="UserMulti"
+       UserSelectionMode="PeopleOnly"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{2D88C1A9-7A0D-4B46-AE62-55FACDA1766D}"
+       Name="ProjectCountry"
+       DisplayName="Country"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{5EBDF480-2FD1-405B-8AAE-B75D6B3D6239}"
+       Name="NoOfPaticipants"
+       DisplayName="No of Paticipants"
+       Type="Choice"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+    <CHOICES>
+      <CHOICE>1</CHOICE>
+      <CHOICE>2</CHOICE>
+      <CHOICE>3</CHOICE>
+      <CHOICE>4</CHOICE>
+      <CHOICE>5</CHOICE>
+      <CHOICE>6</CHOICE>
+      <CHOICE>7</CHOICE>
+      <CHOICE>8</CHOICE>
+      <CHOICE>9</CHOICE>
+      <CHOICE>10</CHOICE>
+      <CHOICE>11</CHOICE>
+      <CHOICE>12</CHOICE>
+      <CHOICE>13</CHOICE>
+      <CHOICE>14</CHOICE>
+      <CHOICE>15</CHOICE>
+      <CHOICE>16</CHOICE>
+      <CHOICE>17</CHOICE>
+      <CHOICE>18</CHOICE>
+      <CHOICE>19</CHOICE>
+      <CHOICE>20</CHOICE>
+      <CHOICE>21</CHOICE>
+      <CHOICE>22</CHOICE>
+      <CHOICE>23</CHOICE>
+      <CHOICE>24</CHOICE>
+      <CHOICE>25</CHOICE>
+      <CHOICE>26</CHOICE>
+      <CHOICE>27</CHOICE>
+      <CHOICE>28</CHOICE>
+      <CHOICE>29</CHOICE>
+      <CHOICE>30</CHOICE>
+      <CHOICE>31</CHOICE>
+      <CHOICE>32</CHOICE>
+      <CHOICE>33</CHOICE>
+      <CHOICE>34</CHOICE>
+      <CHOICE>35</CHOICE>
+      <CHOICE>36</CHOICE>
+      <CHOICE>37</CHOICE>
+      <CHOICE>38</CHOICE>
+      <CHOICE>39</CHOICE>
+      <CHOICE>40</CHOICE>
+    </CHOICES>
+    <Default></Default>
+  </Field>
+
+  <Field
+       ID="{739E6D6B-5031-4933-BD2A-066E1D56E887}"
+       Name="eRoomDetails"
+       DisplayName="e Room Details"
+       Type="Note"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{997D5B72-5595-4014-872E-DAABFF7C0746}"
+       Name="NeedExternalParticipants"
+       DisplayName="Need External Participants"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{E75CCAED-1A1B-4FE9-B1F6-A6061ADC1978}"
+       Name="ExternalParticipants"
+       DisplayName="External Participants"
+       Type="Note"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+         ID="{2C157D7E-81EA-4829-9F5E-6C930FB5CAFE}"
+         Name="ProjectComments"
+         DisplayName="Comments"
+         Type="Note"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+         ID="{B83353CE-4E76-492E-989D-123F976C3D3F}"
+         Name="AdditionalComments"
+         DisplayName="Additional Comments"
+         Type="Note"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+  </Field>
+  
+  <Field
+         ID="{27EF4D95-0B59-4E79-B8D7-17C0F97BE5A7}"
+         Name="NextStep"
+         DisplayName="Next Step"
+         Type="Choice"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+    <CHOICES>
+      <CHOICE>KO Meeting</CHOICE>
+      <CHOICE>BC1 sign-off due</CHOICE>
+      <CHOICE>CFPA completion due</CHOICE>
+      <CHOICE>CFPA completion due</CHOICE>
+      <CHOICE>SWOT completion due</CHOICE>
+      <CHOICE>Document requests to be completed</CHOICE>
+      <CHOICE>Questions to be completed</CHOICE>
+      <CHOICE>F2F Agenda to be sent out</CHOICE>
+      <CHOICE>Meeting minutes to be reviewed</CHOICE>
+      <CHOICE>DD Report Draft 1 completion due</CHOICE>
+      <CHOICE>DD Report Draft 2 completion due</CHOICE>
+      <CHOICE>DD Report Final Draft due</CHOICE>
+      <CHOICE>DD Report to be finalised</CHOICE>
+      <CHOICE>S&amp;TC presentation draft 1 due</CHOICE>
+      <CHOICE>S&amp;TC presentation to be finalized</CHOICE>
+      <CHOICE>BC2 completion due</CHOICE>
+    </CHOICES>
+    <Default></Default>
+  </Field>
+
+  <Field
+       ID="{B8B10C5C-2CFB-428B-AA88-841130260CEE}"
+       Name="NextDeadline"
+       DisplayName="Next Deadline"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{FD02877A-CC8F-463E-85F2-D567963AC311}"
+       Name="ReviewDate"
+       DisplayName="Review Date"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{4F75A20E-431B-44AF-8E78-C7F93DCBFDC8}"
+       Name="ActualEnd"
+       DisplayName="Actual End"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+ 
+  <Field
+       ID="{720C38E1-73EA-4660-B7A7-9CAF26390157}"
+       Name="ProjectAction"
+       DisplayName="Action"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{FDA1DAEA-921D-4DCE-A765-084C4D7D9C15}"
+       Name="ActionComments"
+       DisplayName="Action Comments"
+       Type="Note"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{115AB915-5D6C-4E9F-9060-AB24B63CAABA}"
+       Name="ActionCompleted"
+       DisplayName="Action Completed"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+    
+  <Field
+         ID="{1A1F5A8E-9B31-42D1-BD34-B423FC8BFE88}"
+         Name="ProjectOutcome"
+         DisplayName="Outcome"
+         Type="Choice"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+    <CHOICES>
+      <CHOICE>Ongoing</CHOICE>
+      <CHOICE>Approved</CHOICE>
+      <CHOICE>Terminated</CHOICE>
+    </CHOICES>
+    <Default></Default>
+  </Field>   
+  
+  <Field
+         ID="{B5F29D92-3155-4643-872A-C03212B9B3ED}"
+         Name="ProjectNotes"
+         DisplayName="Notes"
+         Type="Note"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+  </Field>
+  
+  <Field
+         ID="{6CAD2317-6FD5-4F9F-A02E-4A3187BC7F26}"
+         Name="DDLink"
+         DisplayName="DD Link"
+         Type="URL"
+         Format="Hyperlink"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+        ID="{695CE7E0-EA3C-4014-9A0F-4C676B804958}"
+        Name="KOMeetingPlanned"
+        DisplayName="KO Meeting Planned"
+        Type="DateTime"
+        Format="DateOnly"
+        Required="FALSE"
+        Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{318F990D-9298-40F5-8D27-B8919EBDC8DE}"
+       Name="KOMeetingActual"
+       DisplayName="KO Meeting Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{58B386C0-A989-42DA-B89D-4AD03A3B636C}"
+       Name="BC1completePlanned"
+       DisplayName="BC1 complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{EE1C29C8-729C-44DB-80AA-95D338B92084}"
+       Name="BC1completeActual"
+       DisplayName="BC1 complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{C872651D-83BE-4521-81A6-9B255F32A9C7}"
+       Name="CFPAcompletePlanned"
+       DisplayName="CFPA complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{B3ACA12D-750B-4EE7-83AA-E05EB7B84FF1}"
+       Name="CFPAcompleteActual"
+       DisplayName="CFPA complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{350F0507-D782-4201-9850-8A322E7C7331}"
+       Name="SWOTcompletePlanned"
+       DisplayName="SWOT complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{9DA8DF69-BF23-417B-9FE9-A05EC5CAA012}"
+       Name="SWOTcompleteActual"
+       DisplayName="SWOT complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{3A604698-BF36-4B89-ADD6-0F99D39A6EF0}"
+       Name="TPPcompletePlanned"
+       DisplayName="TPP complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{18CCE691-C440-4DD6-8257-76322C03B192}"
+       Name="TPPcompleteActual"
+       DisplayName="TPP complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{0B49AEC3-5143-4F30-BE45-6E2DBBE5F87C}"
+       Name="DocumentrequestscompletePlanned"
+       DisplayName="Document requests complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{467F868C-1A86-436C-8D62-8FBAFD7666AD}"
+       Name="DocumentrequestscompleteActual"
+       DisplayName="Document requests complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{237BC6D2-3AA6-4C9E-A8CF-B1701C06AACC}"
+       Name="QuestionscompletePlanned"
+       DisplayName="Questions complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{90AD08D5-2076-404B-8655-A0AF9B5627ED}"
+       Name="QuestionscompleteActual"
+       DisplayName="Questions complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{125659F2-9B3C-4AAF-AB86-6401808A87AB}"
+       Name="F2FAgendacompletePlanned"
+       DisplayName="F2F Agenda complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{CD220BE3-06FC-4887-9127-43CB06C81570}"
+       Name="F2FAgendacompleteActual"
+       DisplayName="F2F Agenda complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{F4D94CDC-6883-4386-8F66-4586C7DE92A4}"
+       Name="MeetingminutescompletePlanned"
+       DisplayName="Meeting minutes complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{1597BD50-CC6E-4FC1-BC6C-4A92DCB39ED4}"
+       Name="MeetingminutescompleteActual"
+       DisplayName="Meeting minutes complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{1A83157F-79B9-4CF6-A9C4-D0785ACC0DD7}"
+       Name="DDReportDraft1completePlanned"
+       DisplayName="DD Report Draft 1 complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{BCA284DE-7A10-492A-8EA3-760D7FD1438A}"
+       Name="DDReportDraft1completeActual"
+       DisplayName="DD Report Draft 1 complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{EE162042-C0EA-43AA-B473-63AA676DD5DF}"
+       Name="DDReportDraft2completePlanned"
+       DisplayName="DD Report Draft 2 complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{F6F01E5E-F6CC-4646-AB68-49EB9E0ADD4C}"
+       Name="DDReportDraft2completeActual"
+       DisplayName="DD Report Draft 2 complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{040F54E8-CCC5-4402-A847-F05A5A86229B}"
+       Name="DDReportFinalDraftcompletePlanned"
+       DisplayName="DD Report Final Draft complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{8F039304-E40F-4106-95C7-020C83C72B74}"
+       Name="DDReportFinalDraftcompleteActual"
+       DisplayName="DD Report Final Draft complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{50C8E02C-5C6F-4E51-B947-6AD375402ABA}"
+       Name="DDReportFINALPlanned"
+       DisplayName="DD Report FINAL Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{9D67C665-8151-488B-8D8C-C916A80FE31B}"
+       Name="DDReportFINALActual"
+       DisplayName="DD Report FINAL Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{15A17D68-9AA3-45D6-80CD-5344497A9E75}"
+       Name="SandTCpresentationdraft1completePlanned"
+       DisplayName="S and TC presentation draft 1 complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{500EA31E-0DF5-4C75-AC75-D4FA9C0EFF36}"
+       Name="SandTCpresentationdraft1completeActual"
+       DisplayName="S and TC presentation draft 1 complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{65C5A520-27C8-42A6-80DD-19B3DCE525F1}"
+       Name="SandTCPresentationFINALPlanned"
+       DisplayName="S and TC Presentation FINAL Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{44080190-EF62-4F69-BF3E-A4E4DA38429A}"
+       Name="SandTCPresentationFINALActual"
+       DisplayName="S and TC Presentation FINAL Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{CE6CA4EC-F41E-43FD-B911-18C4B239DFCB}"
+       Name="BC2completePlanned"
+       DisplayName="BC2 complete Planned"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{40A0D516-C839-4CF4-B447-391647C19F01}"
+       Name="BC2completeActual"
+       DisplayName="BC2 complete Actual"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{9C791070-A087-4E5B-9B32-1C66126F8C32}"
+       Name="UpcomingToday"
+       DisplayName="Today"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+  
+  <Field
+      ID="{CCB2BB32-8DD3-4D30-8F0A-6F09EC886751}"  
+      Name="UpcomingEvents"
+      Group="Due Diligence Columns"
+      Type="Calculated"
+      DisplayName="UpcomingEvents"
+      Required="FALSE">
+    <Formula>=IF(AND([Next Deadline]-Today&lt;=14,[Next Deadline]-Today&gt;=0),"Next Step",IF(AND([Review Date]-Today&lt;=14,[Review Date]-Today&gt;=0),"Review Date",""))
+    </Formula>
+    <FieldRefs>
+      <FieldRef Name="NextDeadline" />
+      <FieldRef Name="Today" />
+      <FieldRef Name="NextStep" />
+    </FieldRefs>
+  </Field>
+
+  <Field
+      ID="{0CD0DDDB-6853-4962-BF00-3CFDF1BF4FC7}"
+      Name="Deviationdays"
+      Group="Due Diligence Columns"
+      Type="Calculated"
+      DisplayName="Deviation (days)"
+      Required="FALSE">
+    <Formula>=IF(ISBLANK([Actual End]),"",IF(ISBLANK([Planned End]),"",[Actual End]-[Planned End]))
+    </Formula>
+    <FieldRefs>
+      <FieldRef Name="ActualEnd" />
+      <FieldRef Name="PlannedEnd" />
+    </FieldRefs>
+  </Field>
+
+  <Field
+         ID="{9A1BF53A-76A3-4088-AE6D-583E90ED5C7B}"
+         Name="DocumentTypeBackground"
+         DisplayName="Document Type"
+         Type="Choice"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+    <CHOICES>
+      <CHOICE>Presentations</CHOICE>
+      <CHOICE>Weblinks and Published Literature</CHOICE>
+      <CHOICE>Useful Information</CHOICE>
+      <CHOICE>To-BBB Correspondance</CHOICE>
+    </CHOICES>
+    <Default></Default>
+  </Field>
+
+  <Field
+       ID="{71BBB444-9EDA-4AE0-8A3B-750E3F2B98D5}"
+       Name="DocumentTypeArtefacts"
+       DisplayName="DocuemntType"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+         ID="{4673EA7D-C34E-46E3-8EE3-17B404F41331}"
+         Name="FullorShort"
+         DisplayName="FullorShort"
+         Type="Choice"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+    <CHOICES>
+      <CHOICE>Full</CHOICE>
+      <CHOICE>Short</CHOICE>
+    </CHOICES>
+    <Default></Default>
+  </Field>
+
+  <Field
+         ID="{7C368DCA-68F0-411B-B52E-CA0C3CC0A2D8}"
+         Name="SortNum"
+         DisplayName="SortNum"
+         Type="Number"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{8CB38B2F-7C7F-4515-AC3D-DF759B2E0B6D}"
+       Name="Pain"
+       DisplayName="Pain"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{FFE68075-CC26-4848-B89D-1EAE5C6B56CD}"
+       Name="RespiratoryandInflammation"
+       DisplayName="Respiratory and Inflammation "
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{D6FBFC3D-87DE-4281-BE33-32671959B23E}"
+       Name="Oncology"
+       DisplayName="Oncology"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{F7F2C209-7A9F-4DB6-92EC-98D5CFC63C3F}"
+       Name="RoughDiamonds"
+       DisplayName="Rough Diamonds"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+         ID="{2C7FFB66-649E-4936-B663-BA069DEA918A}"
+         Name="KeyContactsEmail"
+         DisplayName="Email"
+         Type="URL"
+         Format="Hyperlink"
+         Required="FALSE"
+         Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{334CE978-EE77-44F2-9CAE-1FC76F095A1C}"
+       Name="ProjectEmailSubject"
+       DisplayName="Subject"
+       Type="Text"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{67415E28-E959-4649-A332-762A7D867A26}"
+       Name="EmailContent"
+       DisplayName="Content"
+       Type="Note"
+       RichText="TRUE"
+       RichTextMode="FullHtml"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{18491EC9-0659-4536-BF33-B8CA870052FD}"
+       Name="MailTemplate"
+       DisplayName="MailTemplate"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{517DD32C-0394-4F66-9E2C-46913C4DA2C5}"
+       Name="EmailActive"
+       DisplayName="Active"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{4A16C557-C175-4ACB-9D41-D8127CCB9542}"
+       Name="DisplayFields"
+       DisplayName="DisplayFields"
+       Type="Note"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+  
+  <Field
+       ID="{CAF3B275-F590-45B7-93C1-BD54FAB838BF}"
+       Name="RowLimit"
+       DisplayName="RowLimit"
+       Type="Number"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{9F553794-DAB6-4DAF-967D-A95DDA262158}"
+       Name="ViewQuery"
+       DisplayName="ViewQuery"
+       Type="Note"
+       Required="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{B8183533-2A81-410A-BE8A-F48666AB2EAE}"
+       Name="ReportCount"
+       DisplayName="Count"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{DAFC01E5-4466-4B6A-9961-4B68427FC6B4}"
+       Name="DataType"
+       DisplayName="DataType"
+       Type="Text"
+       Required="FALSE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+      ID="{16176EF4-A36D-4A44-A382-145547CE3D64}"
+      Name="TherapeuticArea"
+      DisplayName="Therapeutic Area"
+      Type="Lookup"
+      List="Lists/TherapeuticArea"
+      ShowField="Title"
+      Required="FALSE"
+      Overwrite="TRUE"
+      Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+        ID="{0D7F5571-A92B-471E-A542-5F1D507B80FD}"
+        Name="Territories"
+        DisplayName="Territories"
+        Type="Lookup"
+        List="Lists/Territory"
+        ShowField="Title"
+        Required="TRUE"
+        Overwrite="TRUE"
+        Mult="TRUE"
+        Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+       ID="{B3D9EC59-BCD4-4520-A89A-8014DC8BA7BB}"
+       Name="ProjectStatus"
+       DisplayName="Status"
+       Type="Lookup"
+       List="Lists/Status"
+       ShowField="Title"
+       Required="FALSE"
+       Overwrite="TRUE"
+       Mult="TRUE"
+       Group="Due Diligence Columns">
+  </Field>
+
+  <Field
+        ID="{C3F266FA-3345-489B-A4CA-D640CF08C727}"
+        Name="ProjectID"
+        DisplayName="Project ID"
+        Type="Lookup"
+        List="Lists/DueDiligenceProjects"
+        ShowField="ID"
+        Required="FALSE"
+        Overwrite="TRUE"
+        Group="Due Diligence Columns">
+  </Field>
+
+</Elements>

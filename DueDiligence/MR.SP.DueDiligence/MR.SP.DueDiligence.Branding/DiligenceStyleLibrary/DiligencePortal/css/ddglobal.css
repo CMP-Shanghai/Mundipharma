@@ -1,0 +1,60 @@
+﻿/* View Title Background */
+
+#ctl00_ctl53_site_share_button{display:none !important;}
+
+.ms-viewheadertr{
+    background-color:#1780C7;
+}
+
+.ms-headerSortTitleLink{
+    color:white !important;
+}
+
+th .ms-vb, .ms-vh2-nofilter-icon, th.ms-vh2-nograd, th.ms-vh2-nograd-icon {
+    color:white;
+}
+
+.ms-vh, .ms-vh2, .ms-vh-icon, .ms-vh-icon-empty, .ms-vh2-nofilter, .ms-vh2-nofilter-notextalign, .ms-vh2-nofilter-perm, .ms-vhImage, .ms-vh2-nograd, .ms-vh3-nograd, .ms-vh2-nograd-icon, .ms-vh2-nofilter-icon, .ms-ph {
+    color:white;
+}
+
+th .ms-vb a, .ms-vh2-nofilter-icon a {
+    color:white;
+}
+
+/*count div background-color and font-color*/
+
+.count{
+    color:White;
+    font-size:50px;
+    background-color:#1780C7;
+    text-align:center;
+}
+
+.txt{
+	text-align:center;
+	font-size:20px;
+}
+
+/*hide NewsFeed etc.*/
+
+.ms-core-suiteLinkList { display:none; }
+
+/*project to data*/
+
+#divListItemBox {
+    border:solid 1px #ccc;
+    background-color:#1780C7;
+}
+#divListItemCount {
+    text-align:center;color:white;margin-top:3px;margin-bottom:5px;font-size:35px;
+}
+
+#divListItemDiscription {
+
+font-size:20px;text-align:center;color:white;
+}
+
+.ms-csrlistview-controldiv {
+    /*display:none;//xslt data view control new item tool bar list view */
+}

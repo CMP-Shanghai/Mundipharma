@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Site>
+  <SubSite Url="" isSubsite="False">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+
+  </SubSite>
+  <SubSite Url="/En-us" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="English Corp Blog1 Owners" Description= "English Corp Blog1 Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Corp Blog2 Owners" Description= "English Corp Blog2 Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Corp Blog1 Owners" Description= "French Corp Blog1 Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Corp Blog2 Owners" Description= "French Corp Blog2 Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+  <SubSite Url="/En-us/News" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Approve"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+  <SubSite Url="/En-us/Misc" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+
+  <SubSite Url="/En-us/Company" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+  <SubSite Url="/En-us/Company/CorpBlogs1" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+  <SubSite Url="/En-us/Company/CorpBlogs2" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+
+  <SubSite Url="/fr-CA" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+
+  <SubSite Url="/fr-CA/News" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Approve"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+  <SubSite Url="/fr-CA/Misc" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+  <SubSite Url="/fr-CA/Company" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+  <SubSite Url="/fr-CA/Company/CorpBlogs1" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+  <SubSite Url="/fr-CA/Company/CorpBlogs2" isSubsite="True">
+    <Group Name="English News Site Members" Description= "English News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English News Site Approvers" Description= "English News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English General Site Members" Description= "English General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Misc Site Members" Description= "English Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="English Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French Site Owners" Description= "French Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="French News Site Members" Description= "French News Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French News Site Approvers" Description= "French News Site Approvers" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French General Site Members" Description= "French General Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Misc Site Members" Description= "French Misc Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="French Blog Site Members" Description= "English Blog Site Members" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Contribute"/>
+      </PermissionLevels>
+    </Group>
+
+    <Group Name="Publishing Site Visitors" Description= "Publishing Site Visitors" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Read"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Publishing Site Owners" Description= "Publishing Site Owners" >
+      <PermissionLevels>
+        <PermissionLevel Name = "Full Control"/>
+      </PermissionLevels>
+    </Group>
+    <Group Name="Approvers" Description= "Approvers" />
+    <Group Name="Designers" Description= "Designers" />
+    <Group Name="Hierarchy Managers" Description= "Hierarchy Managers" />
+    <Group Name="Restricted Readers" Description= "Restricted Readers" />
+    <Group Name="Style Resource Readers" Description= "Style Resource Readers" />
+  </SubSite>
+
+
+
+
+</Site>

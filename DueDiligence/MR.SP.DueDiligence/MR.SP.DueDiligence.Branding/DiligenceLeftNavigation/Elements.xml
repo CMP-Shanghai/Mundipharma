@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="DiligenceLeftNavigation" Url="Style Library">
+    <File Path="DiligenceLeftNavigation\CustomSiteNavigation\CreateSiteNavigation.xml" Url="CustomSiteNavigation/CreateSiteNavigation.xml"  Type="GhostableInLibrary" />
+  </Module>
+</Elements>

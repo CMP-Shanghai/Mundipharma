@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01001773ADE150C54573B9E6E6B4122F736F" Name="Idea Actions Content Type" Group="MR.IdeaTracker.ContentTypes" Description="Idea Actions Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{00b7cdc6-3590-4447-a167-201f90d4a7fd}" DisplayName="Idea" Required="TRUE" Name="IdeaParent" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-001f90d4a7fd}" DisplayName="Description" Required="TRUE" Name="IDescription" />
+      <FieldRef ID="{c06e273f-29fd-4604-9b55-b54b10a2fe42}" DisplayName="Category" Required="TRUE" Name="ICategory" />
+      <FieldRef ID="{c06e273f-39fd-4604-9b55-b54b10a2fe42}" DisplayName="Status" Required="TRUE" Name="IStatus" Format="RadioButtons" />
+      <FieldRef ID="{c06e273f-39fd-4604-9b55-b64b10a2fe42}" DisplayName="AssignedTo" Required="FALSE" Name="IAssigned" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

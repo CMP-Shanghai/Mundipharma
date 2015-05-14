@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2be11829-3729-4cc5-bee8-45228aa4cf5e" solutionId="2be11829-3729-4cc5-bee8-45228aa4cf5e" resetWebServer="false" sharePointProductVersion="15.0" name="MR.SP.IdeaTracker.Pages" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="51acb6b7-2f79-45b8-a080-bc0e5d4ec6cb" />
+  </projectItems>
+</package>

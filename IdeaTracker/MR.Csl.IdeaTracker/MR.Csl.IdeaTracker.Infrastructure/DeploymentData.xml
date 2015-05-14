@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Site SiteUrl="http://c4968397007:8888">
+  <PermissionGroups>
+    <SiteOwner>
+    </SiteOwner>
+    <Approver>
+    </Approver>
+    <Member>
+    </Member>
+  </PermissionGroups>
+
+  <Lists>
+    <!--<List Name="Keywords" Type="List" Description="This is Keywords List" Url="Lists/Keywords">
+      <Fields>
+        <Field Name="Title" DisplayName="Title" Type="Text"></Field>
+      </Fields>
+    </List>-->
+    
+    <List Name="Review Pace" Type="List" Description="This is Review Pace List" Url="Lists/Review Pace">
+      <Fields>
+        <Field Name="Title" DisplayName="Title" Type="Text"></Field>
+        <Field Name="ItDescription" DisplayName="Description" Type="Note"></Field>
+      </Fields>
+    </List>
+    
+    <List Name="Ideas" Type="List" Description="This is a Ideas list." Url="Lists/Ideas">
+      <Fields>        
+        <Field Name="Title" DisplayName="Idea Title" Type="Text" Required="TRUE"></Field>
+        <Field Name="ItDescription" DisplayName="Idea Description" Type="Note" HTMLEncode="FALSE" RichText="FALSE"></Field>      
+        <Field Name="ItOriginator" DisplayName="Idea Originator" Type="UserMulti" Mult="TRUE" UserSelectionScope="0" DisplayNameSrcField="Account" UserSelectionMode="PeopleOnly"  Required="TRUE"></Field>
+        <Field Name="ItCountry" DisplayName="Country" Type="Text"></Field>
+        <Field Name="ItExternal" DisplayName="External Participants?" Type="Boolean"></Field>
+        <Field Name="ItExtParticipants" DisplayName="External Participants" Type="Text" ></Field>
+        <Field Name="ItSource" DisplayName="Source" Type="MultiChoice" FillInChoice="FALSE" Required="TRUE">
+          <CHOICES>
+            <CHOICE>News Paper</CHOICE>
+            <CHOICE>TV News</CHOICE>
+            <CHOICE>Science News Letters</CHOICE>
+            <CHOICE>Magazines</CHOICE>
+            <CHOICE>Other</CHOICE>
+          </CHOICES>
+        </Field>
+        <Field Name="ItOtherSource" DisplayName="Other Source" Type="Note" HTMLEncode="FALSE" RichText="FALSE"></Field>
+        <Field Name="ItLevel" DisplayName="Level of Involvement" Type="Choice" Format="Dropdown" Required="TRUE">
+          <CHOICES>
+            <CHOICE>Lead the idea</CHOICE>
+            <CHOICE>Contribute to the idea</CHOICE>
+            <CHOICE>Be kept informed about what happens to this idea</CHOICE>
+            <CHOICE>No further involvement desired</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>
+        <Field Name="ItFilter" DisplayName="Filter" Type="Choice" Format="RadioButtons" Hidden="FALSE">
+          <CHOICES>
+            <CHOICE>Process Improvement</CHOICE>
+            <CHOICE>Product Idea</CHOICE>
+            <CHOICE>TBD</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>
+        <Field Name="ItRedirect" DisplayName="Redirect To" Type="UserMulti" UserSelectionScope="0" DisplayNameSrcField="Account" UserSelectionMode="PeopleOnly"></Field>
+        <Field Name="ItComments" DisplayName="Comments" Type="Note" HTMLEncode="FALSE" RichText="FALSE" ></Field>
+        <Field Name="ItSummary" DisplayName="Idea Summary" Type="Note" HTMLEncode="FALSE" RichText="FALSE"></Field>
+        <Field Name="ItTheraupeticArea" DisplayName="Theraupetic Area" Type="MultiChoice" FillInChoice="FALSE">
+          <CHOICES>
+            <CHOICE>A</CHOICE>
+            <CHOICE>B</CHOICE>
+            <CHOICE>C</CHOICE>
+            <CHOICE>D</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>
+        <Field Name="ItStage" DisplayName="Stage" Type="Choice" Format="Dropdown">
+          <CHOICES>
+            <CHOICE>Screening</CHOICE>
+            <CHOICE>Cross-Functional</CHOICE>
+            <CHOICE>Overview</CHOICE>
+            <CHOICE>Review</CHOICE>
+            <CHOICE>Excution</CHOICE>
+          </CHOICES>
+        </Field>
+        <Field Name="ItReviewPace" DisplayName="Review Pace" Type="Lookup" List="Review Pace" ShowField="Title"></Field>
+        <Field Name="ItUnMetNeeds" DisplayName="UnMet Needs" Type="Choice" Format="RadioButtons" Hidden="FALSE">
+          <CHOICES>
+            <CHOICE>Yes</CHOICE>
+            <CHOICE>No</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>
+        <Field Name="ItChemicalEntities" DisplayName="New chemical entities repurposing?" Type="Choice" Format="RadioButtons">
+          <CHOICES>
+            <CHOICE>Yes</CHOICE>
+            <CHOICE>No</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>
+        <Field Name="ItNewFormulation" DisplayName="New Formulation" Type="Choice" Format="RadioButtons">
+          <CHOICES>
+            <CHOICE>Yes</CHOICE>
+            <CHOICE>No</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>
+        <Field Name="ItNewProcess" DisplayName="New Process" Type="Choice" Format="RadioButtons">
+          <CHOICES>
+            <CHOICE>Yes</CHOICE>
+            <CHOICE>No</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>
+        <Field Name="ItLifecycle" DisplayName="Life cycle Management" Type="Choice" Format="RadioButtons">
+          <CHOICES>
+            <CHOICE>Yes</CHOICE>
+            <CHOICE>No</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>
+        <Field Name="ItDevice" DisplayName="Device" Type="Choice" Format="RadioButtons">
+          <CHOICES>
+            <CHOICE>Yes</CHOICE>
+            <CHOICE>No</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>       
+        <!--<Field Name="ItKeywords" DisplayName="Keywords" Type="Lookup" List="Keywords" ShowField="Title"></Field>-->
+        <!--Need Term Set: ITKeywords-->
+        <Field Name="ItKeywords" DisplayName="Key Words" Type="TaxonomyFieldType" ShowField="ITKeywords" Required="FALSE" EnforceUniqueValues="FALSE" StaticName="Keywords"></Field>
+        <Field Name="ItChampion" DisplayName="Assign Idea Champion" Type="UserMulti" UserSelectionScope="0" DisplayNameSrcField="Account" UserSelectionMode="PeopleOnly"></Field>
+        <Field Name="ItStatus" DisplayName="Status" Type="Choice" Format="RadioButtons" Hidden="FALSE">
+          <CHOICES>
+            <CHOICE>Pursue</CHOICE>
+            <CHOICE>Redirect</CHOICE>
+            <CHOICE>Park</CHOICE>
+          </CHOICES>
+          <Default></Default>
+        </Field>        
+        <Field Name="ItSubmittedOn" DisplayName="Submitted On" Type="DateTime" Format="DateOnly"></Field>
+        <Field Name="ItScreeningDate" DisplayName="Screening Date" Type="DateTime" Format="DateOnly"></Field>
+        <Field Name="ItCrossFuncDate" DisplayName="Cross Functional Date" Type="DateTime" Format="DateOnly"></Field>
+        <Field Name="ItOverviewDate" DisplayName="Overview Date" Type="DateTime" Format="DateOnly"></Field>
+        <Field Name="ItReviewDate" DisplayName="Review Date" Type="DateTime" Format="DateOnly"></Field>
+        <Field Name="ItExecutionDate" DisplayName="Execution Date" Type="DateTime" Format="DateOnly"></Field>
+        <!--<Field Name="ItsParticipants" DisplayName="Participants" Type="UserMulti" UserSelectionScope="0" DisplayNameSrcField="Account" UserSelectionMode="PeopleOnly"></Field>-->
+        <Field Name="ItDecisionby" DisplayName="Decision by" Type="UserMulti" UserSelectionScope="0" DisplayNameSrcField="Account" UserSelectionMode="PeopleOnly"></Field>
+        <Field Name="ItIsDraft" DisplayName="IsDraft" Type="Boolean">
+          <Default>Yes</Default>
+        </Field>
+    </Fields>
+    </List>
+    
+    <List Name="Idea Hyperlinks" Type="List" Description="This is Idea Hyperlinks" Url="Lists/Idea Hyperlinks">
+      <Fields>
+        <Field Name="Title" DisplayName="Title" Type="Text"></Field>        
+        <Field Name="ItDescription" DisplayName="Description" Type="Note" HTMLEncode="FALSE" RichText="FALSE" Required="TRUE"></Field>
+        <Field Name="ItHyperlink" DisplayName="Hyperlink" Type="Note" HTMLEncode="FALSE" RichText="FALSE" Required="TRUE"></Field>
+      </Fields>
+    </List>
+    
+    <List Name="Idea Actions" Type="List" Description="This is Idea Actions List" Url="Lists/IdeaA ctions">
+      <Fields>
+        <Field Name="Title" DisplayName="Action" Type="Text"></Field>       
+        <Field Name="ItIdeaParent" DisplayName="Idea" Type="Lookup" List="Ideas" ShowField="Title" Required="FALSE"></Field>
+        <Field Name="ItAssigned" DisplayName="Assigned To" Type="UserMulti" Mult="TRUE" UserSelectionScope="0" DisplayNameSrcField="Account" UserSelectionMode="PeopleOnly" Required="FALSE" ></Field>
+        <Field Name="ItDescription" DisplayName="Description" Type="Note"></Field>        
+        <Field Name="ItDate" DisplayName="Date" Type="DateTime" Format="DateOnly" Required="TRUE"></Field>
+        <Field Name="ItPriority" DisplayName="Priority" Type="Choice" Required="TRUE" Format="Dropdown">
+          <CHOICES>
+            <CHOICE>Low</CHOICE>
+            <CHOICE>Medium</CHOICE>
+            <CHOICE>Hign</CHOICE>
+          </CHOICES>
+        </Field>        
+      </Fields>
+    </List>
+
+    <List Name="Feedbacks" Type="List" Description="This is Idea Feedbacks List" Url="Lists/Feedbacks">
+      <Fields>
+        <Field Name="Title" DisplayName="Title" Type="Text"></Field>
+        <Field Name="ItDescription" DisplayName="Description" Type="Note" Required="TRUE" ></Field>
+      </Fields>
+    </List>
+
+    <List Name="Idea Minutes" Type="List" Description="This is Idea Minutes List" Url="Lists/Idea Minutes">
+      <Fields>
+        <Field Name="ItIdeaParent" DisplayName="Idea" Type="Lookup" List="Ideas" ShowField="Title"></Field>
+        <Field Name="ItMeetingMinutes" DisplayName="Meeting Minutes" Type="Note" Required="TRUE"></Field>
+        <Field Name="ItDated" DisplayName="Dated" Type="DateTime" Format="DateOnly" Required="TRUE"></Field>
+      </Fields>
+    </List>
+    
+    <List Name="SWOT" Type="List" Description="This is SWOT List" Url="Lists/SWOT">
+      <Fields>
+        <Field Name="ItIdeaParent" DisplayName="Idea" Type="Lookup" List="Ideas"  ShowField="Title"></Field>
+        <Field Name="ItStrengh" DisplayName="Strengh" Type="Note"></Field>
+        <Field Name="ItWeakness" DisplayName="Weakness" Type="Note"></Field>
+        <Field Name="ItOpportunities" DisplayName="Opportunities" Type="Note"></Field>
+        <Field Name="ItThreats" DisplayName="Threats" Type="Note"></Field>
+      </Fields>
+    </List>
+    
+     <List Name="Idea Contacts" Type="List" Description="This is Idea Contacts List" Url="Lists/Idea Contacts">
+      <Fields>
+        <Field Name="ItIdeaParent" DisplayName="Idea" Type="Lookup" List="Ideas"  ShowField="Title"></Field>
+        <Field Name="ItContactType" DisplayName="Type" Type="Choice" Format="RadioButtons">
+          <CHOICES>
+            <CHOICE>External</CHOICE>
+            <CHOICE>Internal</CHOICE>
+          </CHOICES>
+        </Field>
+        <Field Name="ItContact" DisplayName="Contact" Type="UserMulti" UserSelectionScope="0" DisplayNameSrcField="Account" UserSelectionMode="PeopleOnly"></Field>
+        <Field Name="ItExpertise" DisplayName="Expertise" Type="TaxonomyFieldType" ShowField="ITExpertise" Required="FALSE" EnforceUniqueValues="FALSE" StaticName="Expertise"></Field>
+      </Fields>
+    </List>
+
+    <List Name="Idea Files" Type="Document Library" Description="This is Idea Files List" Url="Lists/Idea Files">
+      <Fields>
+        <Field Name="Title" DisplayName="File" Type="Text"></Field>
+        <Field Name="ItIdeaParent" DisplayName="Idea" Type="Lookup" List="Ideas"  ShowField="Title"></Field>
+        <Field Name="ItDescription" DisplayName="Description" Type="Note"></Field>
+      </Fields>
+    </List>
+    
+    <List Name="Innovation Index Master" Type="List" Description="This is Innovation Index Master List" Url="Lists/Innovation Index Master">
+      <Fields>
+        <Field Name="Title" DisplayName="Title" Type="Text"></Field>        
+        <Field Name="ItCommercial" DisplayName="Commercial" Type="Number" Required="TRUE" Decimals="1"></Field>
+        <Field Name="ItFeasibilty" DisplayName="Feasibilty" Type="Number" Required="TRUE" Decimals="1"></Field>
+        <Field Name="ItEfforts" DisplayName="Efforts" Type="Number" Required="TRUE" Decimals="1"></Field>
+        <Field Name="ItCompetitiveness" DisplayName="Competitiveness" Type="Number" Required="TRUE" Decimals="1"></Field>
+      </Fields>
+    </List>
+
+    <List Name="Innovation Level Mapping" Type="List" Description="This is Innovation Level Mapping List" Url="Lists/Innovation Level Mapping">
+      <Fields>
+        <Field Name="Title" DisplayName="Level" Type="Text"></Field>
+        <Field Name="ItScore" DisplayName="Score" Type="Number" Required="TRUE"></Field>
+      </Fields>
+    </List>
+
+    <List Name="Innovation Tracker" Type="List" Description="This is Innovation Tracker List" Url="Lists/Innovation Tracker">
+      <Fields>
+        <Field Name="Title" DisplayName="Title" Type="Text"></Field>        
+        <Field Name="ItIdeaParent" DisplayName="Idea" Type="Lookup" List="Ideas" ShowField="Title"></Field>
+        <Field Name="ItThirdPartyNecessary" DisplayName="ThirdPartyNecessary" Type="Boolean" Required="TRUE"></Field>
+        <Field Name="ItOriginalityOfInnovation" DisplayName="OriginalityOfInnovation" Type="Lookup" Required="TRUE" List="Innovation Level Mapping" ShowField="Title" ></Field>
+        <Field Name="ItFitwithPortfolio_x002f_startegy" DisplayName="Fit with Portfolio/Startegy" Type="Lookup"  Required="TRUE" List="Innovation Level Mapping" ShowField="Title" ></Field>
+        <Field Name="ItMarketPotential" DisplayName="Market Potential" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItReimbursement_x002f_MarketAccess" DisplayName="Reimbursement/Market Access" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItTechnicalFeasibility" DisplayName="Technical Feasibility" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItRegulatoryFeasibility" DisplayName="Regulatory Feasibility" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItClinical_x002f_Safety" DisplayName="Clinical/Safety" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItCapabilities" DisplayName="Capabilities" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItCompetition" DisplayName="Competition" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItIPR_x002f_Protection" DisplayName="IPR/Protection" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItTimetoMarket" DisplayName="Time to Market" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+        <Field Name="ItDevelopmentCosts" DisplayName="Development Costs" Type="Lookup" Required="TRUE" List="Innovation Level Mapping"  ShowField="Title" ></Field>
+      </Fields>
+    </List>
+
+    <List Name="Success Stories" Type="List" Description="This is Success Stories List" Url="Lists/Success Stories">
+      <Fields>
+        <Field Name="Title" DisplayName="Title" Type="Text"></Field>
+        <Field Name="ItDescription" DisplayName="Description" Type="Note"></Field>
+      </Fields>
+    </List>
+
+    <List Name="QA" Type="Discussion" Description="This is QA List" Url="Lists/QA">
+      <Fields>
+        <Field Name="ItIdeaParent" DisplayName="Idea" Type="Lookup" List="Ideas" ShowField="Title" Required="FALSE"></Field>
+      </Fields>
+    </List>
+    
+  </Lists>
+
+</Site>

@@ -1,0 +1,20 @@
+﻿.dd_report_search_field_title {
+    width: 150px;
+    height: 30px;
+    background-color: #1780C7;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.dd_report_search_codition {
+    padding:5px;
+    border:1px solid #ababab;
+}
+
+.dd_report_search_field_area .dd_report_search_field_outcome {
+}
+
+.dd_report_search_show_button {
+    
+}

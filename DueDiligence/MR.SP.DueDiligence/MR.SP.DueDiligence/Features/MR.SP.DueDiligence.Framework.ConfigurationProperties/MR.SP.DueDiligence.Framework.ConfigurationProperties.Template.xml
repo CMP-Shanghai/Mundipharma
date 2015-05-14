@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Properties>
+    <Property Key="WEBPROPERTIE_ALLGROUP" Value="BD Lead;Commercial Head;R&amp;D Executive Director;Due Diligence Administrators;ProjectUsers" />
+    <Property Key="WEBPROPERTIE_ADDUSERTOPARTICIPANT" Value="ProjectUsers" />
+    <Property Key="ViewWithDDReportLink4Admin" Value="Admin DD Reports" />
+    <Property Key="ViewWithDDReportLink4Participant" Value="DD Reports" />
+    <Property Key="ViewWithDDReportLink4NormalUser" Value="Normal DD Reports" />
+    <Property Key="Upcoming4Admin" Value="Admin Upcoming Events" />
+    <Property Key="Upcoming4Participant" Value="Upcoming Events" />
+    <Property Key="Upcoming4NormalUser" Value="" />
+    <Property Key="Ongoing4Admin" Value="Admin Ongoing Projects" />
+    <Property Key="Ongoing4Participant" Value="Ongoing Projects" />
+    <Property Key="Ongoing4NormalUser" Value="" />
+    <Property Key="AllItems4Admin" Value="Admin All Items" />
+    <Property Key="AllItems4Participant" Value="All Items" />
+    <Property Key="AllItems4NormalUser" Value="" />
+    <Property Key="NormalUserLandingUrl" Value="/Pages/NormalUserLandingPage.aspx" />
+    <Property Key="Approved4Admin" Value="Admin Approved Projects" />
+    <Property Key="Approved4Participant" Value="Approved Projects" />
+    <Property Key="Approved4NormalUser" Value="" />
+    <Property Key="NonApproved4Admin" Value="Admin Non Approved Projects" />
+    <Property Key="NonApproved4Participant" Value="Non Approved Projects" />
+    <Property Key="NonApproved4NormalUser" Value="" />
+    <Property Key="Terminated4Admin" Value="Admin Terminated Projects" />
+    <Property Key="Terminated4Participant" Value="Terminated Projects" />
+    <Property Key="Terminated4NormalUser" Value="" />
+  </Properties>
+</Feature>

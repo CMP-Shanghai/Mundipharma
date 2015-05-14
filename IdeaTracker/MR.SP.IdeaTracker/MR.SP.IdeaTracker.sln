@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Infrastructure", "01.Infrastructure", "{1D62822D-0ADE-4737-B4BC-DA5D3798BCCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.SiteStructure", "02.SiteStructure", "{7AFABCF2-D301-4429-84D4-8A41308F3E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Branding", "03.Branding", "{B00495A9-3063-4797-A822-ACF650464EF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.WebPart", "04.WebPart", "{7B44F923-3804-4FDD-A9A0-65D4785F6A18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Pages", "05.Pages", "{01186A1E-5FF7-4D1F-836C-411B5A672D00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.Common", "99.Common", "{59F4EC43-8E4A-41A6-98A5-E798CAE52418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.IdeaTracker.SiteStructure", "MR.SP.IdeaTracker.SiteStructure\MR.SP.IdeaTracker.SiteStructure.csproj", "{FA9D9176-E92E-41B8-A741-B797032DE0A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.IdeaTracker.Branding", "MR.SP.IdeaTracker.Branding\MR.SP.IdeaTracker.Branding.csproj", "{64B73C50-B375-47F8-9D42-4705EBB26F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.IdeaTracker.WebParts", "MR.SP.IdeaTracker.WebParts\MR.SP.IdeaTracker.WebParts.csproj", "{B5D7547E-9186-43DC-9327-46B6D2D3D5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.IdeaTracker.Infrastructure", "MR.SP.IdeaTracker.Infrastructure\MR.SP.IdeaTracker.Infrastructure.csproj", "{65422F9C-64D4-4009-9CE6-B1C0B2EC8AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.IdeaTracker.Pages", "MR.SP.IdeaTracker.Pages\MR.SP.IdeaTracker.Pages.csproj", "{3A5392DD-1DF8-4110-831B-C9010CA07C2D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cygnus.cognizant.com/tfs/mundipharma
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MR.SP.IdeaTracker.Branding\\MR.SP.IdeaTracker.Branding.csproj
+		SccProjectTopLevelParentUniqueName1 = MR.SP.IdeaTracker.sln
+		SccProjectName1 = MR.SP.IdeaTracker.Branding
+		SccLocalPath1 = MR.SP.IdeaTracker.Branding
+		SccProjectUniqueName2 = MR.SP.IdeaTracker.SiteStructure\\MR.SP.IdeaTracker.SiteStructure.csproj
+		SccProjectTopLevelParentUniqueName2 = MR.SP.IdeaTracker.sln
+		SccProjectName2 = MR.SP.IdeaTracker.SiteStructure
+		SccLocalPath2 = MR.SP.IdeaTracker.SiteStructure
+		SccProjectUniqueName3 = MR.SP.IdeaTracker.WebParts\\MR.SP.IdeaTracker.WebParts.csproj
+		SccProjectTopLevelParentUniqueName3 = MR.SP.IdeaTracker.sln
+		SccProjectName3 = MR.SP.IdeaTracker.WebParts
+		SccLocalPath3 = MR.SP.IdeaTracker.WebParts
+		SccProjectUniqueName4 = MR.SP.IdeaTracker.Infrastructure\\MR.SP.IdeaTracker.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName4 = MR.SP.IdeaTracker.sln
+		SccProjectName4 = MR.SP.IdeaTracker.Infrastructure
+		SccLocalPath4 = MR.SP.IdeaTracker.Infrastructure
+		SccProjectUniqueName5 = MR.SP.IdeaTracker.Pages\\MR.SP.IdeaTracker.Pages.csproj
+		SccProjectTopLevelParentUniqueName5 = MR.SP.IdeaTracker.sln
+		SccProjectName5 = MR.SP.IdeaTracker.Pages
+		SccLocalPath5 = MR.SP.IdeaTracker.Pages
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA9D9176-E92E-41B8-A741-B797032DE0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9D9176-E92E-41B8-A741-B797032DE0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9D9176-E92E-41B8-A741-B797032DE0A2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FA9D9176-E92E-41B8-A741-B797032DE0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9D9176-E92E-41B8-A741-B797032DE0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9D9176-E92E-41B8-A741-B797032DE0A2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{64B73C50-B375-47F8-9D42-4705EBB26F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B73C50-B375-47F8-9D42-4705EBB26F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B73C50-B375-47F8-9D42-4705EBB26F4B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{64B73C50-B375-47F8-9D42-4705EBB26F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B73C50-B375-47F8-9D42-4705EBB26F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B73C50-B375-47F8-9D42-4705EBB26F4B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B5D7547E-9186-43DC-9327-46B6D2D3D5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D7547E-9186-43DC-9327-46B6D2D3D5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D7547E-9186-43DC-9327-46B6D2D3D5B5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5D7547E-9186-43DC-9327-46B6D2D3D5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D7547E-9186-43DC-9327-46B6D2D3D5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D7547E-9186-43DC-9327-46B6D2D3D5B5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{65422F9C-64D4-4009-9CE6-B1C0B2EC8AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65422F9C-64D4-4009-9CE6-B1C0B2EC8AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65422F9C-64D4-4009-9CE6-B1C0B2EC8AF4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{65422F9C-64D4-4009-9CE6-B1C0B2EC8AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65422F9C-64D4-4009-9CE6-B1C0B2EC8AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65422F9C-64D4-4009-9CE6-B1C0B2EC8AF4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3A5392DD-1DF8-4110-831B-C9010CA07C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5392DD-1DF8-4110-831B-C9010CA07C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5392DD-1DF8-4110-831B-C9010CA07C2D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3A5392DD-1DF8-4110-831B-C9010CA07C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5392DD-1DF8-4110-831B-C9010CA07C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5392DD-1DF8-4110-831B-C9010CA07C2D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65422F9C-64D4-4009-9CE6-B1C0B2EC8AF4} = {1D62822D-0ADE-4737-B4BC-DA5D3798BCCC}
+		{FA9D9176-E92E-41B8-A741-B797032DE0A2} = {7AFABCF2-D301-4429-84D4-8A41308F3E21}
+		{64B73C50-B375-47F8-9D42-4705EBB26F4B} = {B00495A9-3063-4797-A822-ACF650464EF0}
+		{B5D7547E-9186-43DC-9327-46B6D2D3D5B5} = {7B44F923-3804-4FDD-A9A0-65D4785F6A18}
+		{3A5392DD-1DF8-4110-831B-C9010CA07C2D} = {01186A1E-5FF7-4D1F-836C-411B5A672D00}
+	EndGlobalSection
+EndGlobal

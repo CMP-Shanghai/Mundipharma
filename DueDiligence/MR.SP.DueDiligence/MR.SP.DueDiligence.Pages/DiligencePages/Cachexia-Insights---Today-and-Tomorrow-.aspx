@@ -1,0 +1,11 @@
+﻿<%@ Page Inherits="Microsoft.SharePoint.Publishing.TemplateRedirectionPage,Microsoft.SharePoint.Publishing,Version=15.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c" %> <%@ Reference VirtualPath="~TemplatePageUrl" %> <%@ Reference VirtualPath="~masterurl/custom.master" %><%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+<!--[if gte mso 9]><SharePoint:CTFieldRefs runat=server Prefix="mso:" FieldList="FileLeafRef,Comments,PublishingStartDate,PublishingExpirationDate,PublishingContactEmail,PublishingContactName,PublishingContactPicture,PublishingPageLayout,PublishingVariationGroupID,PublishingVariationRelationshipLinkFieldID,PublishingRollupImage,Audience,PublishingIsFurlPage,PublishingPageImage,PublishingPageContent,SummaryLinks,ArticleByLine,ArticleStartDate,PublishingImageCaption,HeaderStyleDefinitions,SeoBrowserTitle,SeoMetaDescription,SeoKeywords,RobotsNoIndex"><xml>
+<mso:CustomDocumentProperties>
+<mso:PublishingPageContent msdt:dt="string">&lt;div class=&quot;Content&quot; style=&quot;float&amp;#58;right;&quot;&gt;
+&lt;h2&gt;Products for Cachexia&lt;/h2&gt;&lt;hr /&gt;
+&lt;a href=&quot;#&quot;&gt;Helsinn - Anamorelin&lt;/a&gt;
+&lt;div class=&quot;ms-rtestate-read ms-rte-wpbox&quot; unselectable=&quot;on&quot;&gt;&lt;div class=&quot;ms-rtestate-notify  ms-rtestate-read c90fb73f-0729-4e01-9d9a-3086f5a4e810&quot; id=&quot;div_c90fb73f-0729-4e01-9d9a-3086f5a4e810&quot; unselectable=&quot;on&quot;&gt;&lt;/div&gt;&lt;div id=&quot;vid_c90fb73f-0729-4e01-9d9a-3086f5a4e810&quot; unselectable=&quot;on&quot; style=&quot;display&amp;#58;none;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</mso:PublishingPageContent>
+</mso:CustomDocumentProperties>
+</xml></SharePoint:CTFieldRefs><![endif]-->
+<title>Cachexia Insights - Today and Tomorrow </title></head>

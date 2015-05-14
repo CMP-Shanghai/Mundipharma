@@ -1,0 +1,11 @@
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\bin\Debug\MR.SP.IdeaTracker.Branding.dll
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\bin\Debug\MR.SP.IdeaTracker.Branding.pdb
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\bin\Debug\Microsoft.SharePoint.dll
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\bin\Debug\Microsoft.Web.CommandUI.dll
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\bin\Debug\Microsoft.SharePoint.Security.dll
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\obj\Debug\MR.SP.IdeaTracker.Branding.csprojResolveAssemblyReference.cache
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\obj\Debug\MR.SP.IdeaTracker.Branding.dll
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\obj\Debug\MR.SP.IdeaTracker.Branding.pdb
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\bin\Debug\Microsoft.SharePoint.Publishing.dll
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\bin\Debug\Microsoft.Office.Server.dll
+D:\Work\Project\Mundipharma\TFS\IdeaTracker\MR.SP.IdeaTracker\MR.SP.IdeaTracker.Branding\bin\Debug\Microsoft.Office.Server.UserProfiles.dll

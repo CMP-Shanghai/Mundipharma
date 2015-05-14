@@ -1,0 +1,53 @@
+﻿.TypeTable 
+{
+border:0px;border-collapse:collapse;
+border-spacing:0;
+width:100%;
+} 
+
+.TypeTable td
+{
+height:25px;
+} 
+
+
+.titletr
+{
+background-color:#1780c7;
+font-size:15px;
+color:White;
+height:30px;
+}
+ 
+.titletd
+{
+padding:10px;
+}
+
+.Type
+{
+padding:15px 5px 15px 5px;
+color:Gray;
+font-family:Microsoft YaHei;
+font-weight:bold;
+font-size:14px;
+}
+ 
+.typename
+{
+color:Black;
+margin-top:10px;
+margin-bottom:10px;
+}
+ 
+.contenttr
+{
+font-size:12px;
+font-family:Microsoft YaHei;
+}
+ 
+.templateurl
+{
+font-family:Microsoft YaHei;
+font-size:13px;margin:10px;
+} 

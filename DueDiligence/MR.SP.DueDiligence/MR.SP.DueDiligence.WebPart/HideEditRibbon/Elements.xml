@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="HideEditRibbon" List="113" Url="_catalogs/wp">
+    <File Path="HideEditRibbon\HideEditRibbon.webpart" Url="MR.SP.DueDiligence.WebPart_HideEditRibbon.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="MR.SP.DueDiligence" />
+    </File>
+  </Module>
+</Elements>

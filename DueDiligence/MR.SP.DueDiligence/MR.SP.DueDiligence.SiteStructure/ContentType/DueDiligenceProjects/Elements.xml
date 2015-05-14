@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100BBD1CCA0DB164D11996576DF8128DFC4" Name="DueDiligenceProjects" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{C6ACE0A7-8753-446A-8C6D-6371A061B0E6}" DisplayName="Opportunity" Required="TRUE" Name="Opportunity" />
+      <FieldRef ID="{2B7E06D3-0F90-4E87-BA8F-1539B61ADE46}" DisplayName="Opportunity Description" Required="TRUE" Name="OpportunityDescription" />
+      <FieldRef ID="{C7F0CE17-A44C-43F7-9EE2-7776E5A9A3B7}" DisplayName="Form" Required="TRUE" Name="ProjectForm" Format="RadioButtons" />
+      <FieldRef ID="{A2AEC20F-0C8E-4E39-BA74-EDD0DD09DB0F}" DisplayName="Start" Required="TRUE" Name="ProjectStart" Format="DateOnly" />
+      <FieldRef ID="{50A5D320-BB12-4D97-8038-D4B226711365}" DisplayName="Planned End" Required="FALSE" Name="PlannedEnd" Format="DateOnly" />
+      <FieldRef ID="{373023D3-3EF8-4D0E-952A-49AF17155CFC}" DisplayName="Company" Required="TRUE" Name="ProjectCompany" />
+      <FieldRef ID="{41B8BD3D-7285-4268-98EA-E9149DFC2242}" DisplayName="Onsite Visit Date" Required="FALSE" Name="OnsiteVisitDate" Format="DateOnly" />
+      <FieldRef ID="{39972208-FF11-4467-9F79-0640CC2530D3}" DisplayName="BD Lead" Required="TRUE" Name="BDLead" />
+      <FieldRef ID="{9E64B320-EBB7-4D4E-9FF2-8A03A28271CC}" DisplayName="Commercial Head" Required="TRUE" Name="CommercialHead" />
+      <FieldRef ID="{D231D8A2-F08A-44A2-8A2F-B83A81CC8C12}" DisplayName="R and D Executive Director" Required="TRUE" Name="RandDExecutiveDirector" />
+      <FieldRef ID="{82F03D78-7B36-4061-8E82-917A952AEEA0}" DisplayName="Participants" Required="TRUE" Name="ProjectParticipants" />
+      <FieldRef ID="{2D88C1A9-7A0D-4B46-AE62-55FACDA1766D}" DisplayName="Country" Required="FALSE" Name="ProjectCountry" />
+      <FieldRef ID="{5EBDF480-2FD1-405B-8AAE-B75D6B3D6239}" DisplayName="No of Paticipants" Required="FALSE" Name="NoOfPaticipants" />
+      <FieldRef ID="{739E6D6B-5031-4933-BD2A-066E1D56E887}" DisplayName="e Room Details" Required="FALSE" Name="eRoomDetails" />
+      <FieldRef ID="{997D5B72-5595-4014-872E-DAABFF7C0746}" DisplayName="Need External Participants" Required="FALSE" Name="NeedExternalParticipants" />
+      <FieldRef ID="{E75CCAED-1A1B-4FE9-B1F6-A6061ADC1978}" DisplayName="External Participants" Required="FALSE" Name="ExternalParticipants" />
+      <FieldRef ID="{2C157D7E-81EA-4829-9F5E-6C930FB5CAFE}" DisplayName="Comments" Required="FALSE" Name="ProjectComments" />
+      <FieldRef ID="{27EF4D95-0B59-4E79-B8D7-17C0F97BE5A7}" DisplayName="Next Step" Required="FALSE" Name="NextStep" />
+      <FieldRef ID="{B8B10C5C-2CFB-428B-AA88-841130260CEE}" DisplayName="Next Deadline" Required="FALSE" Name="NextDeadline" Format="DateOnly" />
+      <FieldRef ID="{B83353CE-4E76-492E-989D-123F976C3D3F}" DisplayName="Additional Comments" Required="FALSE" Name="AdditionalComments" />
+      <FieldRef ID="{318F990D-9298-40F5-8D27-B8919EBDC8DE}" DisplayName="KO Meeting Actual" Required="FALSE" Name="KOMeetingActual" Format="DateOnly" />
+      <FieldRef ID="{695CE7E0-EA3C-4014-9A0F-4C676B804958}" DisplayName="KO Meeting Planned" Required="FALSE" Name="KOMeetingPlanned" Format="DateOnly" />
+      <FieldRef ID="{EE1C29C8-729C-44DB-80AA-95D338B92084}" DisplayName="BC1 complete Actual" Required="FALSE" Name="BC1completeActual" Format="DateOnly" />
+      <FieldRef ID="{58B386C0-A989-42DA-B89D-4AD03A3B636C}" DisplayName="BC1 complete Planned" Required="FALSE" Name="BC1completePlanned" Format="DateOnly" />
+      <FieldRef ID="{9DA8DF69-BF23-417B-9FE9-A05EC5CAA012}" DisplayName="SWOT complete Actual" Required="FALSE" Name="SWOTcompleteActual" Format="DateOnly" />
+      <FieldRef ID="{350F0507-D782-4201-9850-8A322E7C7331}" DisplayName="SWOT complete Planned" Required="FALSE" Name="SWOTcompletePlanned" Format="DateOnly" />
+      <FieldRef ID="{18CCE691-C440-4DD6-8257-76322C03B192}" DisplayName="TPP complete Actual" Required="FALSE" Name="TPPcompleteActual" Format="DateOnly" />
+      <FieldRef ID="{3A604698-BF36-4B89-ADD6-0F99D39A6EF0}" DisplayName="TPP complete Planned" Required="FALSE" Name="TPPcompletePlanned" Format="DateOnly" />
+      <FieldRef ID="{467F868C-1A86-436C-8D62-8FBAFD7666AD}" DisplayName="Document requests complete Actual" Required="FALSE" Name="DocumentrequestscompleteActual" Format="DateOnly" />
+      <FieldRef ID="{0B49AEC3-5143-4F30-BE45-6E2DBBE5F87C}" DisplayName="Document requests complete Planned" Required="FALSE" Name="DocumentrequestscompletePlanned" Format="DateOnly" />
+      <FieldRef ID="{90AD08D5-2076-404B-8655-A0AF9B5627ED}" DisplayName="Questions complete Actual" Required="FALSE" Name="QuestionscompleteActual" Format="DateOnly" />
+      <FieldRef ID="{237BC6D2-3AA6-4C9E-A8CF-B1701C06AACC}" DisplayName="Questions complete Planned" Required="FALSE" Name="QuestionscompletePlanned" Format="DateOnly" />
+      <FieldRef ID="{CD220BE3-06FC-4887-9127-43CB06C81570}" DisplayName="F2F Agenda complete Actual" Required="FALSE" Name="F2FAgendacompleteActual" Format="DateOnly" />
+      <FieldRef ID="{125659F2-9B3C-4AAF-AB86-6401808A87AB}" DisplayName="F2F Agenda complete Planned" Required="FALSE" Name="F2FAgendacompletePlanned" Format="DateOnly" />
+      <FieldRef ID="{1597BD50-CC6E-4FC1-BC6C-4A92DCB39ED4}" DisplayName="Meeting minutes complete Actual" Required="FALSE" Name="MeetingminutescompleteActual" Format="DateOnly" />
+      <FieldRef ID="{F4D94CDC-6883-4386-8F66-4586C7DE92A4}" DisplayName="Meeting minutes complete Planned" Required="FALSE" Name="MeetingminutescompletePlanned" Format="DateOnly" />
+      <FieldRef ID="{BCA284DE-7A10-492A-8EA3-760D7FD1438A}" DisplayName="DD Report Draft 1 complete Actual" Required="FALSE" Name="DDReportDraft1completeActual" Format="DateOnly" />
+      <FieldRef ID="{1A83157F-79B9-4CF6-A9C4-D0785ACC0DD7}" DisplayName="DD Report Draft 1 complete Planned" Required="FALSE" Name="DDReportDraft1completePlanned" Format="DateOnly" />
+      <FieldRef ID="{F6F01E5E-F6CC-4646-AB68-49EB9E0ADD4C}" DisplayName="DD Report Draft 2 complete Actual" Required="FALSE" Name="DDReportDraft2completeActual" Format="DateOnly" />
+      <FieldRef ID="{EE162042-C0EA-43AA-B473-63AA676DD5DF}" DisplayName="DD Report Draft 2 complete Planned" Required="FALSE" Name="DDReportDraft2completePlanned" Format="DateOnly" />
+      <FieldRef ID="{9D67C665-8151-488B-8D8C-C916A80FE31B}" DisplayName="DD Report FINAL Actual" Required="FALSE" Name="DDReportFINALActual" Format="DateOnly" />
+      <FieldRef ID="{8F039304-E40F-4106-95C7-020C83C72B74}" DisplayName="DD Report Final Draft complete Actual" Required="FALSE" Name="DDReportFinalDraftcompleteActual" Format="DateOnly" />
+      <FieldRef ID="{040F54E8-CCC5-4402-A847-F05A5A86229B}" DisplayName="DD Report Final Draft complete Planned" Required="FALSE" Name="DDReportFinalDraftcompletePlanned" Format="DateOnly" />
+      <FieldRef ID="{50C8E02C-5C6F-4E51-B947-6AD375402ABA}" DisplayName="DD Report FINAL Planned" Required="FALSE" Name="DDReportFINALPlanned" Format="DateOnly" />
+      <FieldRef ID="{500EA31E-0DF5-4C75-AC75-D4FA9C0EFF36}" DisplayName="S and TC presentation draft 1 complete Actual" Required="FALSE" Name="SandTCpresentationdraft1completeActual" Format="DateOnly" />
+      <FieldRef ID="{15A17D68-9AA3-45D6-80CD-5344497A9E75}" DisplayName="S and TC presentation draft 1 complete Planned" Required="FALSE" Name="SandTCpresentationdraft1completePlanned" Format="DateOnly" />
+      <FieldRef ID="{44080190-EF62-4F69-BF3E-A4E4DA38429A}" DisplayName="S and TC Presentation FINAL Actual" Required="FALSE" Name="SandTCPresentationFINALActual" Format="DateOnly" />
+      <FieldRef ID="{65C5A520-27C8-42A6-80DD-19B3DCE525F1}" DisplayName="S and TC Presentation FINAL Planned" Required="FALSE" Name="SandTCPresentationFINALPlanned" Format="DateOnly" />
+      <FieldRef ID="{40A0D516-C839-4CF4-B447-391647C19F01}" DisplayName="BC2 complete Actual" Required="FALSE" Name="BC2completeActual" Format="DateOnly" />
+      <FieldRef ID="{CE6CA4EC-F41E-43FD-B911-18C4B239DFCB}" DisplayName="BC2 complete Planned" Required="FALSE" Name="BC2completePlanned" Format="DateOnly" />
+      <FieldRef ID="{720C38E1-73EA-4660-B7A7-9CAF26390157}" DisplayName="Action" Required="FALSE" Name="ProjectAction" />
+      <FieldRef ID="{FDA1DAEA-921D-4DCE-A765-084C4D7D9C15}" DisplayName="Action Comments" Required="FALSE" Name="ActionComments" />
+      <FieldRef ID="{115AB915-5D6C-4E9F-9060-AB24B63CAABA}" DisplayName="Action Completed" Required="FALSE" Name="ActionCompleted" />
+      <FieldRef ID="{FD02877A-CC8F-463E-85F2-D567963AC311}" DisplayName="Review Date" Required="FALSE" Name="ReviewDate" Format="DateOnly" />
+      <FieldRef ID="{4F75A20E-431B-44AF-8E78-C7F93DCBFDC8}" DisplayName="Actual End" Required="FALSE" Name="ActualEnd" Format="DateOnly" />
+      <FieldRef ID="{9C791070-A087-4E5B-9B32-1C66126F8C32}" DisplayName="Today" Required="FALSE" Name="UpcomingToday" Format="DateOnly" />
+      <FieldRef ID="{6CAD2317-6FD5-4F9F-A02E-4A3187BC7F26}" DisplayName="DD Link" Required="FALSE" Name="DDLink" Format="Hyperlink" />
+      <FieldRef ID="{1A1F5A8E-9B31-42D1-BD34-B423FC8BFE88}" DisplayName="Outcome" Required="FALSE" Name="ProjectOutcome" />
+      <FieldRef ID="{B5F29D92-3155-4643-872A-C03212B9B3ED}" DisplayName="Notes" Required="FALSE" Name="ProjectNotes" />
+      <FieldRef ID="{16176EF4-A36D-4A44-A382-145547CE3D64}" DisplayName="Therapeutic Area" Required="FALSE" Name="TherapeuticArea" />
+      <FieldRef ID="{0D7F5571-A92B-471E-A542-5F1D507B80FD}" DisplayName="Territories" Required="TRUE" Name="Territories" />
+      <FieldRef ID="{B3D9EC59-BCD4-4520-A89A-8014DC8BA7BB}" DisplayName="Status" Required="FALSE" Name="ProjectStatus" />
+      <FieldRef ID="{CCB2BB32-8DD3-4D30-8F0A-6F09EC886751}" DisplayName="UpcomingEvents" Required="FALSE" Name="UpcomingEvents" />
+      <FieldRef ID="{0CD0DDDB-6853-4962-BF00-3CFDF1BF4FC7}" DisplayName="Deviation (days)" Required="FALSE" Name="Deviationdays" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

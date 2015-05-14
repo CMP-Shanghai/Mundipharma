@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Document (0x0101) -->
+  <ContentType ID="0x010100CDCA737FD3124528A78A8C4CE95997B5" Name="Idea Files Content Type" Group="MR.IdeaTracker.ContentTypes" Description="Idea Files Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-001f90d4a7fd}" DisplayName="Description" Required="TRUE" Name="IDescription" />
+      <FieldRef ID="{00b7cdc6-3590-4447-a167-201f90d4a7fd}" DisplayName="Idea" Required="FALSE" Name="IdeaParent" Format="Dropdown" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

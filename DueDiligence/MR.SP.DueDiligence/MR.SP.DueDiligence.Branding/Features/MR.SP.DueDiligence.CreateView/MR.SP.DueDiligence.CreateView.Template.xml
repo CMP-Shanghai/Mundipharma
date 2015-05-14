@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Properties>
+    <Property Key="Ongoing Projects" Value="Ongoing4Admin;Ongoing4Participant;Ongoing4NormalUser" />
+    <Property Key="All Projects" Value="AllItems4Admin;AllItems4Participant;AllItems4NormalUser" />
+    <Property Key="Approved Projects" Value="Approved4Admin;Approved4Participant;Approved4NormalUser" />
+    <Property Key="None-Approved Projects" Value="NonApproved4Admin;NonApproved4Participant;NonApproved4NormalUser" />
+    <Property Key="Terminated Projects" Value="Terminated4Admin;Terminated4Participant;Terminated4NormalUser" />
+  </Properties>
+</Feature>

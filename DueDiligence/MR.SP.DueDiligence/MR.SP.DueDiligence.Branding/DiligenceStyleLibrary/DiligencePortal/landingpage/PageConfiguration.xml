@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PageConfiguration>
+  <Library URL="SitePages">
+    <Page Name="AaronTest.aspx">
+      <Content>
+        <![CDATA[
+       <div class="ExternalClass53FA3080C9B84563A43808C9F089F571">
+   <table width="100%" class="ms-rteTable-default" cellspacing="0" style="height: 300px;">
+      <tbody>
+         <tr class="ms-rteTableEvenRow-default">
+            <td class="ms-rteTableEvenCol-default" style="width: 80%;">
+               <p>
+                  <span class="ms-rteFontSize-4 ms-rteThemeForeColor-5-4"><strong>Upcoming Events(Within the next 14 days)</strong></span></p>
+
+		{<upcoming webpart>}
+
+		{<redirect webpart>}
+
+		{<0>}
+
+            </td>
+            <td class="ms-rteTableOddCol-default">
+
+		{<count webpart>}
+
+               <div> &#160;&#160;&#160;&#160;&#160;&#160; 
+                  <a href="/sites/duediligence/Pages/Diligence-Process.aspx"><span class="ms-rteFontSize-4 ms-rteThemeForeColor-5-4"><strong>About 
+
+Diligence</strong></span></a> </div>
+               <div>
+                  <img src="/sites/duediligence/Style%20Library/DiligencePortal/images/Picture1.png" alt="" style="width: 230px; height: 
+
+250px;"/>&#160;</div>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="tabs">
+      <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+         <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" aria-expanded="true" aria-selected="true" aria-
+
+controls="tabs-1" aria-labelledby="ui-id-1">
+            <a tabindex="-1" class="ui-tabs-anchor" id="ui-id-1" role="presentation" href="#tabs-1">Headlines</a></li>
+         <li tabindex="-1" class="ui-state-default ui-corner-top" role="tab" aria-expanded="false" aria-selected="false" aria-controls="tabs-2" aria-
+
+labelledby="ui-id-2">
+            <a tabindex="-1" class="ui-tabs-anchor" id="ui-id-2" role="presentation" href="#tabs-2">Ongoing Projects</a></li>
+         <li tabindex="-1" class="ui-state-default ui-corner-top" role="tab" aria-expanded="false" aria-selected="false" aria-controls="tabs-3" aria-
+
+labelledby="ui-id-3">
+            <a tabindex="-1" class="ui-tabs-anchor" id="ui-id-3" role="presentation" href="#tabs-3">Approved Projects</a></li>
+         <li tabindex="-1" class="ui-state-default ui-corner-top" role="tab" aria-expanded="false" aria-selected="false" aria-controls="tabs-4" aria-
+
+labelledby="ui-id-4">
+            <a tabindex="-1" class="ui-tabs-anchor" id="ui-id-4" role="presentation" href="#tabs-4">Statistics</a></li>
+         <li tabindex="-1" class="ui-state-default ui-corner-top" role="tab" aria-expanded="false" aria-selected="false" aria-controls="tabs-5" aria-
+
+labelledby="ui-id-5">
+            <a tabindex="-1" class="ui-tabs-anchor" id="ui-id-5" role="presentation" href="#tabs-5">Functional Areas</a></li>
+         <li tabindex="-1" class="ui-state-default ui-corner-top" role="tab" aria-expanded="false" aria-selected="false" aria-controls="tabs-6" aria-
+
+labelledby="ui-id-6">
+            <a tabindex="-1" class="ui-tabs-anchor" id="ui-id-6" role="presentation" href="#tabs-6">Indication Insights</a></li>
+      </ul>
+      <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-1" role="tabpanel" aria-hidden="false" aria-labelledby="ui-id-1">
+         <marquee scrolldelay="300" direction="up">
+         </marquee>
+      </div>
+      <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-2" role="tabpanel" aria-hidden="true" aria-labelledby="ui-id-2" style="display: 
+
+none;">
+
+	{<ongoing webpart>}
+
+      </div>
+      <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-3" role="tabpanel" aria-hidden="true" aria-labelledby="ui-id-3" style="display: 
+
+none;">
+
+	{<approved webpart>}
+
+      </div>
+      <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-4" role="tabpanel" aria-hidden="true" aria-labelledby="ui-id-4" style="display: 
+
+none;">
+         <table width="100%" class="ms-rteTable-default" cellspacing="0">
+            <tbody>
+               <tr>
+                  <td class="ms-rteTable-default">​ 
+
+			{<chart1 webpart>} 
+
+		  </td>
+                  <td class="ms-rteTable-default">​ 
+
+			{<chart2 webpart>}
+
+		  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-5" role="tabpanel" aria-hidden="true" aria-labelledby="ui-id-5" style="display: 
+
+none;">
+         <table>
+            <tbody>
+               <tr>
+                  <td> 
+                     <img src="/sites/duediligence/Style%20Library/DiligencePortal/images/Picture2.png" alt=""/> 
+                  </td>
+                  <td> Document Function Area: 
+                     <ul id="link">
+                        <li> 
+                           <a href="/sites/diligence/SitePages/projectmanagement.aspx" style="text-decoration: underline;">project Management</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/businessdevelopment.aspx" style="text-decoration: underline;">Business Development</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/commercial.aspx" style="text-decoration: underline;">Commercial</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/marketaccess.aspx" style="text-decoration: underline;">Market Access</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/quality.aspx" style="text-decoration: underline;">Quality</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/non-clinical.aspx" style="text-decoration: underline;">Non-Clinical</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/clinical.aspx" style="text-decoration: underline;">Clinical</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/clinicaldrugsafety.aspx" style="text-decoration: underline;">Clinical Drug Safety</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/regulatory.aspx" style="text-decoration: underline;">Regulatory</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/patent.aspx" style="text-decoration: underline;">Patent</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/legal.aspx" style="text-decoration: underline;">Legal</a></li>
+                        <li>
+                           <a href="/sites/diligence/SitePages/medicaloperations.aspx" style="text-decoration: underline;">Medical Operations</a></li>
+                     </ul>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-6" role="tabpanel" aria-hidden="true" aria-labelledby="ui-id-6" style="display: 
+
+none;">
+         <ul id="link">
+            <li> 
+               <a href="https://insightmr.mundipharma-rd.eu/display/DD/AML+Insights%3A+Today+and+Tomorrow" style="text-decoration: underline;">AML</a></li>
+            <li>
+               <a href="https://insightmr.mundipharma-rd.eu/display/DD/Insights+in+Anticoagulant+Reversal+Agents+-+Today+and+Tomorrow" style="text-
+
+decoration: underline;">Anticoaqulant Reversal Agents</a></li>          
+            <li>
+               <a href="https://insightmr.mundipharma-rd.eu/display/DD/CLL+Insights%3A+Today+and+Tomorrow" style="text-decoration: underline;">CLL</a></li>
+            <li>
+               <a href="https://insightmr.mundipharma-rd.eu/pages/viewpage.action?pageId=31361533" style="text-decoration: underline;">NHL</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
+        ]]>
+      </Content>
+      <WebParts>
+        <!-- script & css webpart-->
+        <WebPart ID="0">
+          <![CDATA[
+
+<WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Content Editor</Title>
+  <FrameType>None</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName> 
+  <IsIncluded>true</IsIncluded>
+  <PartOrder>12</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/15/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <ExportControlledProperties>true</ExportControlledProperties>
+  <ConnectionID>00000000-0000-0000-0000-000000000000</ConnectionID>
+  <ID>g_3dfa5442_3788_4d83_8685_f0dbdd7d4033</ID>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">
+  
+&lt;link href=&quot;/sites/DueDiligence/Style%20Library/DiligencePortal/css/LandingPage/jquery-ui.css&quot; rel=&quot;stylesheet&quot;/&gt; 
+&lt;script src=&quot;/sites/DueDiligence/Style%20Library/DiligencePortal/scripts/LandingPage/jquery-ui.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/sites/DueDiligence/Style%20Library/DiligencePortal/scripts/LandingPage/Headlines.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; 
+&lt;link href=&quot;/resources/demos/style.css&quot; rel=&quot;stylesheet&quot;/&gt;  
+&lt;script&gt;
+  $(function() {
+    $( &quot;#tabs&quot; ).tabs();
+  });
+&lt;/script&gt;
+        </Content>
+        <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+
+        ]]>
+        </WebPart>     
+
+        <WebPart ID="1">
+          <![CDATA[
+          <webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ShowWithSampleData" type="bool">False</property>
+        <property name="Default" type="string" />
+        <property name="NoDefaultStyle" type="string" null="true" />
+        <property name="CacheXslStorage" type="bool">True</property>
+        <property name="ViewContentTypeId" type="string" />
+        <property name="XmlDefinitionLink" type="string" />
+        <property name="ManualRefresh" type="bool">False</property>
+        <property name="ListUrl" type="string" />
+        <property name="ListId" type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">8f6854c5-bb9b-49ed-af4c-e1b6d7d606f9</property>
+        <property name="TitleUrl" type="string">/sites/DueDiligence/Lists/DueDiligenceProjects</property>
+        <property name="EnableOriginalValue" type="bool">False</property>
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="ServerRender" type="bool">False</property>
+        <property name="ViewFlags" type="Microsoft.SharePoint.SPViewFlags, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">Html, TabularView, Hidden, Mobile</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="ListName" type="string">{8F6854C5-BB9B-49ED-AF4C-E1B6D7D606F9}</property>
+        <property name="ListDisplayName" type="string" />
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+        <property name="DisableSaveAsNewViewButton" type="bool">False</property>
+        <property name="ViewFlag" type="string" />
+        <property name="DataSourceID" type="string" />
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="AutoRefresh" type="bool">False</property>
+        <property name="FireInitialRow" type="bool">True</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="Description" type="string" />
+        <property name="HelpMode" type="helpmode">Modeless</property>
+        <property name="BaseXsltHashKey" type="string" null="true" />
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="CacheXslTimeOut" type="int">86400</property>
+        <property name="ChromeType" type="chrometype">Default</property>
+        <property name="Xsl" type="string" null="true" />
+        <property name="JSLink" type="string" null="true" />
+        <property name="CatalogIconImageUrl" type="string">/_layouts/15/images/itgen.png?rev=23</property>
+        <property name="SampleData" type="string" null="true" />
+        <property name="UseSQLDataSourcePaging" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="PageSize" type="int">-1</property>
+        <property name="ShowTimelineIfAvailable" type="bool">True</property>
+        <property name="Width" type="string" />
+        <property name="DataFields" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Title" type="string" />
+        <property name="PageType" type="Microsoft.SharePoint.PAGETYPE, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">PAGE_NORMALVIEW</property>
+        <property name="DataSourcesString" type="string" />
+        <property name="AllowClose" type="bool">True</property>
+        <property name="InplaceSearchEnabled" type="bool">False</property>
+        <property name="WebId" type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">00000000-0000-0000-0000-000000000000</property>
+        <property name="Height" type="string" />
+        <property name="GhostedXslLink" type="string">main.xsl</property>
+        <property name="DisableViewSelectorMenu" type="bool">False</property>
+        <property name="DisplayName" type="string" />
+        <property name="IsClientRender" type="bool">False</property>
+        <property name="XmlDefinition" type="string">&lt;View Name="{ED53A9B2-859A-47AA-94AD-66807F21861A}" MobileView="TRUE" Type="HTML" Hidden="TRUE" DisplayName="" Url="/sites/DueDiligence/SitePages/Home.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=23" &gt;&lt;Query&gt;&lt;OrderBy&gt;&lt;FieldRef Name="ID" Ascending="FALSE"/&gt;&lt;/OrderBy&gt;&lt;/Query&gt;&lt;ViewFields&gt;&lt;FieldRef Name="ID"/&gt;&lt;FieldRef Name="LinkTitle"/&gt;&lt;FieldRef Name="Company"/&gt;&lt;FieldRef Name="Form"/&gt;&lt;FieldRef Name="Start"/&gt;&lt;FieldRef Name="Plan_x0020_End"/&gt;&lt;FieldRef Name="Actual_x0020_End"/&gt;&lt;FieldRef Name="Deviation_x0028_days_x0029_"/&gt;&lt;FieldRef Name="Therapeutic_x0020_Area"/&gt;&lt;FieldRef Name="Territories"/&gt;&lt;/ViewFields&gt;&lt;RowLimit Paged="TRUE"&gt;30&lt;/RowLimit&gt;&lt;Aggregations Value="Off"/&gt;&lt;JSLink&gt;clienttemplates.js&lt;/JSLink&gt;&lt;XslLink Default="TRUE"&gt;main.xsl&lt;/XslLink&gt;&lt;Toolbar Type="Standard"/&gt;&lt;/View&gt;</property>
+        <property name="InitialAsyncDataFetch" type="bool">False</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="ParameterBindings" type="string">
+  &lt;ParameterBinding Name="dvt_sortdir" Location="Postback;Connection"/&gt;
+            &lt;ParameterBinding Name="dvt_sortfield" Location="Postback;Connection"/&gt;
+            &lt;ParameterBinding Name="dvt_startposition" Location="Postback" DefaultValue=""/&gt;
+            &lt;ParameterBinding Name="dvt_firstrow" Location="Postback;Connection"/&gt;
+            &lt;ParameterBinding Name="OpenMenuKeyAccessible" Location="Resource(wss,OpenMenuKeyAccessible)" /&gt;
+            &lt;ParameterBinding Name="open_menu" Location="Resource(wss,open_menu)" /&gt;
+            &lt;ParameterBinding Name="select_deselect_all" Location="Resource(wss,select_deselect_all)" /&gt;
+            &lt;ParameterBinding Name="idPresEnabled" Location="Resource(wss,idPresEnabled)" /&gt;&lt;ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" /&gt;&lt;ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" /&gt;</property>
+        <property name="DataSourceMode" type="Microsoft.SharePoint.WebControls.SPDataSourceMode, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">List</property>
+        <property name="AutoRefreshInterval" type="int">60</property>
+        <property name="AsyncRefresh" type="bool">False</property>
+        <property name="HelpUrl" type="string" />
+        <property name="MissingAssembly" type="string">Cannot import this Web Part.</property>
+        <property name="XslLink" type="string" null="true" />
+        <property name="SelectParameters" type="string" />
+      </properties>
+    </data>
+  </webPart>
+</webParts>
+          
+         ]]> 
+        </WebPart>
+        
+      <!-- <WebPart ID="2">
+          <![CDATA[
+          
+         ]]>
+        </WebPart>
+        
+        <WebPart ID="3">
+          <![CDATA[
+         
+         ]]>
+        </WebPart>
+        
+        <WebPart ID="4">
+          <![CDATA[
+         
+         ]]>
+         </WebPart>
+         
+          <WebPart ID="5">
+            <![CDATA[
+         
+         ]]>
+          </WebPart>
+          
+          <WebPart ID="6">
+            <![CDATA[
+          
+         ]]>
+          </WebPart> -->
+      </WebParts>
+      <!--
+      <Properties>
+        <Property Key ="{(ListId)}"/>
+        <Property Key ="{(ListName)}" Name=""/>
+        <Property Key ="{(ViewName)}" Name="Admin All Projects"/>
+        <Property Key ="{(ViewId)}"/>
+        <Property Key ="{(WebId)}"/>
+        <Property Key ="{(SiteId)}"/>
+      </Properties>
+      -->
+    </Page>
+
+  </Library>
+</PageConfiguration>

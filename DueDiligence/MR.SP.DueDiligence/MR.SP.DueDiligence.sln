@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.DueDiligence.Framework", "MR.SP.DueDiligence\MR.SP.DueDiligence.Framework.csproj", "{67A8DCB7-AA94-4DAF-ADF0-85854A55E149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.DueDiligence.SiteStructure", "MR.SP.DueDiligence.SiteStructure\MR.SP.DueDiligence.SiteStructure.csproj", "{3C23ABBE-8BA4-49D5-8D89-351B9506E552}"
+	ProjectSection(ProjectDependencies) = postProject
+		{484AF371-1500-474D-B11B-D14FBCF4F22C} = {484AF371-1500-474D-B11B-D14FBCF4F22C}
+		{F386D4B7-414D-4682-B396-AB4651084CCB} = {F386D4B7-414D-4682-B396-AB4651084CCB}
+		{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F} = {0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.DueDiligence.Branding", "MR.SP.DueDiligence.Branding\MR.SP.DueDiligence.Branding.csproj", "{F386D4B7-414D-4682-B396-AB4651084CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.DueDiligence.WebPart", "MR.SP.DueDiligence.WebPart\MR.SP.DueDiligence.WebPart.csproj", "{1F269D9B-52F3-458C-BE9D-59F3154064E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.DueDiligence.EventReceiver", "MR.SP.DueDiligence.EventReceiver\MR.SP.DueDiligence.EventReceiver.csproj", "{484AF371-1500-474D-B11B-D14FBCF4F22C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.SP.DueDiligence.Pages", "MR.SP.DueDiligence.Pages\MR.SP.DueDiligence.Pages.csproj", "{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cygnus.cognizant.com/tfs/mundipharma
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MR.SP.DueDiligence.SiteStructure\\MR.SP.DueDiligence.SiteStructure.csproj
+		SccProjectName1 = MR.SP.DueDiligence.SiteStructure
+		SccLocalPath1 = MR.SP.DueDiligence.SiteStructure
+		SccProjectUniqueName2 = MR.SP.DueDiligence.Branding\\MR.SP.DueDiligence.Branding.csproj
+		SccProjectName2 = MR.SP.DueDiligence.Branding
+		SccLocalPath2 = MR.SP.DueDiligence.Branding
+		SccProjectUniqueName3 = MR.SP.DueDiligence.WebPart\\MR.SP.DueDiligence.WebPart.csproj
+		SccProjectName3 = MR.SP.DueDiligence.WebPart
+		SccLocalPath3 = MR.SP.DueDiligence.WebPart
+		SccProjectUniqueName4 = MR.SP.DueDiligence.EventReceiver\\MR.SP.DueDiligence.EventReceiver.csproj
+		SccProjectName4 = MR.SP.DueDiligence.EventReceiver
+		SccLocalPath4 = MR.SP.DueDiligence.EventReceiver
+		SccProjectUniqueName5 = MR.SP.DueDiligence.Pages\\MR.SP.DueDiligence.Pages.csproj
+		SccProjectName5 = MR.SP.DueDiligence.Pages
+		SccLocalPath5 = MR.SP.DueDiligence.Pages
+		SccProjectUniqueName6 = MR.SP.DueDiligence\\MR.SP.DueDiligence.Framework.csproj
+		SccProjectName6 = MR.SP.DueDiligence
+		SccLocalPath6 = MR.SP.DueDiligence
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A8DCB7-AA94-4DAF-ADF0-85854A55E149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A8DCB7-AA94-4DAF-ADF0-85854A55E149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A8DCB7-AA94-4DAF-ADF0-85854A55E149}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67A8DCB7-AA94-4DAF-ADF0-85854A55E149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A8DCB7-AA94-4DAF-ADF0-85854A55E149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A8DCB7-AA94-4DAF-ADF0-85854A55E149}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3C23ABBE-8BA4-49D5-8D89-351B9506E552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C23ABBE-8BA4-49D5-8D89-351B9506E552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C23ABBE-8BA4-49D5-8D89-351B9506E552}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3C23ABBE-8BA4-49D5-8D89-351B9506E552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C23ABBE-8BA4-49D5-8D89-351B9506E552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C23ABBE-8BA4-49D5-8D89-351B9506E552}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F386D4B7-414D-4682-B396-AB4651084CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F386D4B7-414D-4682-B396-AB4651084CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F386D4B7-414D-4682-B396-AB4651084CCB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F386D4B7-414D-4682-B396-AB4651084CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F386D4B7-414D-4682-B396-AB4651084CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F386D4B7-414D-4682-B396-AB4651084CCB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1F269D9B-52F3-458C-BE9D-59F3154064E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F269D9B-52F3-458C-BE9D-59F3154064E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F269D9B-52F3-458C-BE9D-59F3154064E6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1F269D9B-52F3-458C-BE9D-59F3154064E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F269D9B-52F3-458C-BE9D-59F3154064E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F269D9B-52F3-458C-BE9D-59F3154064E6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{484AF371-1500-474D-B11B-D14FBCF4F22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484AF371-1500-474D-B11B-D14FBCF4F22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484AF371-1500-474D-B11B-D14FBCF4F22C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{484AF371-1500-474D-B11B-D14FBCF4F22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484AF371-1500-474D-B11B-D14FBCF4F22C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484AF371-1500-474D-B11B-D14FBCF4F22C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ABC8CD4-F6D2-4DC1-8F4C-02F933CCA99F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

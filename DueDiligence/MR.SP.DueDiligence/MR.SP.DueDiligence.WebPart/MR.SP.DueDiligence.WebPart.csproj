@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F269D9B-52F3-458C-BE9D-59F3154064E6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MR.SP.DueDiligence.WebPart</RootNamespace>
+    <AssemblyName>MR.SP.DueDiligence.WebPart</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Server, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Server.UserProfiles, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.CommandUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HideEditRibbon\HideEditRibbon.cs" />
+    <Compile Include="KeyContacts\KeyContacts.cs" />
+    <Compile Include="KeyContacts\KeyContactsUserControl.ascx.cs">
+      <DependentUpon>KeyContactsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KeyContacts\KeyContactsUserControl.ascx.designer.cs">
+      <DependentUpon>KeyContactsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewWithRole\ListViewWithRole.cs" />
+    <Compile Include="ListViewWithRole\ListViewWithRoleUserControl.ascx.cs">
+      <DependentUpon>ListViewWithRoleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListViewWithRole\ListViewWithRoleUserControl.ascx.designer.cs">
+      <DependentUpon>ListViewWithRoleUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebPartBase.cs" />
+    <Compile Include="WPCopyButton\WPCopyButton.cs" />
+    <Compile Include="WPIndicationNotes\WPIndicationNotes.ascx.cs">
+      <DependentUpon>WPIndicationNotes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WPIndicationNotes\WPIndicationNotes.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WPIndicationNotes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WPRedirct\WPRedirct.cs" />
+    <Compile Include="WPStatistics\WPStatistics.cs" />
+    <Compile Include="WPUPloadButton\WPUPloadButton.cs" />
+    <Compile Include="WPViewDocument\WPViewDocument.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\MR.SP.DueDiligence.WebPart\MR.SP.DueDiligence.WebPart.feature">
+      <FeatureId>{c6178b05-b5d1-44bc-9b3e-429982afb999}</FeatureId>
+    </None>
+    <None Include="HideEditRibbon\HideEditRibbon.webpart" />
+    <None Include="HideEditRibbon\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1bce0b91-bbcf-4fa1-8f97-9c5bc73f4f5a}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="KeyContacts\KeyContacts.webpart" />
+    <None Include="KeyContacts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7f565045-4dd6-43b8-94cf-b9b4198c8a4e}</SharePointProjectItemId>
+    </None>
+    <None Include="ListViewWithRole\ListViewWithRole.webpart" />
+    <None Include="ListViewWithRole\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f3cfe61b-d9f2-45ad-9f1b-04508b8b8cf7}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{a354279c-f69b-4e65-ab11-a230dfa66f8c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="WPCopyButton\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{556a5154-6bce-44c0-b324-34da11e667b9}</SharePointProjectItemId>
+    </None>
+    <None Include="WPCopyButton\WPCopyButton.webpart" />
+    <None Include="WPIndicationNotes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c4431db-1415-41cc-9afa-9d8b4155c039}</SharePointProjectItemId>
+    </None>
+    <None Include="WPIndicationNotes\WPIndicationNotes.webpart" />
+    <None Include="WPRedirct\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{98208820-d6e4-488d-aef9-401b71543ab5}</SharePointProjectItemId>
+    </None>
+    <None Include="WPRedirct\WPRedirct.webpart" />
+    <None Include="WPStatistics\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1b6382b5-2a62-4e76-8df9-f8987249ead0}</SharePointProjectItemId>
+    </None>
+    <None Include="WPStatistics\WPStatistics.webpart" />
+    <None Include="WPUPloadButton\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{68ee6600-4f29-43e8-84de-8f2952cdc8f3}</SharePointProjectItemId>
+    </None>
+    <None Include="WPUPloadButton\WPUPloadButton.webpart" />
+    <None Include="WPViewDocument\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{66329208-fd96-4fb4-8bfb-091c3d40ca77}</SharePointProjectItemId>
+    </None>
+    <None Include="WPViewDocument\WPViewDocument.webpart">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MR.SP.DueDiligence\MR.SP.DueDiligence.Framework.csproj">
+      <Project>{67a8dcb7-aa94-4daf-adf0-85854a55e149}</Project>
+      <Name>MR.SP.DueDiligence.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\MR.SP.DueDiligence.WebPart\MR.SP.DueDiligence.WebPart.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.WebPart.feature</DependentUpon>
+    </Content>
+    <Content Include="HideEditRibbon\Elements.xml" />
+    <Content Include="KeyContacts\Elements.xml" />
+    <Content Include="KeyContacts\KeyContactsUserControl.ascx" />
+    <Content Include="ListViewWithRole\Elements.xml" />
+    <Content Include="ListViewWithRole\ListViewWithRoleUserControl.ascx" />
+    <Content Include="WPCopyButton\Elements.xml" />
+    <Content Include="WPIndicationNotes\Elements.xml" />
+    <Content Include="WPIndicationNotes\WPIndicationNotes.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>WPIndicationNotes.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WPRedirct\Elements.xml" />
+    <Content Include="WPStatistics\Elements.xml" />
+    <Content Include="WPUPloadButton\Elements.xml" />
+    <Content Include="WPViewDocument\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

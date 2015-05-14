@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="DiligenceStyleLibrary\" Type="ElementManifest" />
+    <ProjectItemFile Source="DiligencePortal\css\Form\DocumentWebPart.css" Target="DiligenceStyleLibrary\DiligencePortal\css\Form\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\css\Form\DisplayForm\DisplayForm.css" Target="DiligenceStyleLibrary\DiligencePortal\css\Form\DisplayForm\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\css\Form\EditForm\EditForm.css" Target="DiligenceStyleLibrary\DiligencePortal\css\Form\EditForm\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\css\Form\NewForm\NewForm.css" Target="DiligenceStyleLibrary\DiligencePortal\css\Form\NewForm\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\css\LandingPage\jquery-ui.css" Target="DiligenceStyleLibrary\DiligencePortal\css\LandingPage\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\jquery-1.11.1.min.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\jquery.SPServices-2014.01.min.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\Form\DisplayForm\DisplayForm.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\Form\DisplayForm\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\Form\DisplayForm\SendMailButtonAndEditButton.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\Form\DisplayForm\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\Form\EditForm\EditForm.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\Form\EditForm\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\Form\EditForm\SendMail.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\Form\EditForm\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\Form\NewForm\NewForm.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\Form\NewForm\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\LandingPage\FunctionalAreas.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\LandingPage\Headlines.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\LandingPage\jquery-1.10.2.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\LandingPage\jquery-ui.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\LayoutPages\ProjectsByData.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\LayoutPages\SendMail.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\blue.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\Bottom.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\green.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\LOGO.jpg" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\Picture1.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\Picture2.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\purple.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\red.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\Top.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\LandingPage\LandingPage.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\landingpage\PageConfiguration.xml" Target="DiligenceStyleLibrary\DiligencePortal\landingpage\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\DDCount.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\publicMethod.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\View\LinkToReport.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\View\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\css\ddglobal.css" Target="DiligenceStyleLibrary\DiligencePortal\css\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\View\RemoveLookupFieldLink.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\View\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\css\Layoutpages\ddreports.css" Target="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\css\Layoutpages\ddsendmail.css" Target="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\css\Layoutpages\ddkeycontacts.css" Target="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\LayoutPages\KeyContacts.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\Configuration File\LandingPage.html" Target="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\Configuration File\LandingPage_CEWP.html" Target="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\Configuration File\Ribbon.html" Target="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\scripts\MR.SP.DueDiligence.CopyFile.js" Target="DiligenceStyleLibrary\DiligencePortal\scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="DiligencePortal\images\DD pic.png" Target="DiligenceStyleLibrary\DiligencePortal\images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

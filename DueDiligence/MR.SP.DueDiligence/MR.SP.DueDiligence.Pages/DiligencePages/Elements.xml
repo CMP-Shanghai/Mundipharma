@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="DiligencePages" Url="Pages" RootWebOnly="FALSE" >
+    <File Path="DiligencePages\AML.aspx" Url="AML.aspx" Type="GhostableInLibrary" >
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpz" ID="g_61687c82_17c4_4ec2_80b9_3a024bf7a925">
+        <![CDATA[<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">Allows authors to insert HTML snippets or scripts.</property>
+        <property name="Content" type="string">&lt;style&gt;
+
+.Content{
+color:#003784;
+}
+
+.Content a {
+font-family:Microsoft YaHei; 
+font-size:13px;
+text-decoration:underline;
+}
+
+.Content table {
+border:0px;
+border-collapse:collapse;
+border-spacing:0;
+}
+
+.Content tr, td {
+padding: 0 0 3px 10px;
+}
+
+.top {
+color:White;
+width:447px;
+height:34px;
+padding:0 0 0 10px;
+background-image:url('/sites/diligence/Style%20Library/DiligencePortal/images/Top.png');
+}
+
+.bottom {
+width:447px;
+height:34px;
+background-image:url('/sites/diligence/Style%20Library/DiligencePortal/images/Bottom.png');
+}
+
+.middle {
+background-color:#d1e1f3;
+height:100px;
+padding:0 10px 0 10px;
+font-family:Microsoft YaHei;
+font-size:13px;
+}
+.righttab 
+{
+    padding: 0px 0px 120px 80px;
+}
+&lt;/style&gt; </property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">Script Editor</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>]]>
+      </AllUsersWebPart>
+      <Property Name="ContentTypeId" Value="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00AC067A9BAC23B54BAAAFF2BD387A8308" />
+      <Property Name="FileLeafRef" Value="AML.aspx" />
+      <Property Name="Title" Value="AML Insights: Today and Tomorrow" />
+      <Property Name="PublishingIsFurlPage" Value="FALSE" />
+      <Property Name="RobotsNoIndex" Value="FALSE" />
+      <Property Name="ContentType" Value="Article Page" />
+      <Property Name="_ModerationStatus" Value="3" />
+      <Property Name="FileDirRef" Value="Pages" />
+      <Property Name="PublishingPageLayout" Value="~sitecollection/_catalogs/masterpage/PageFromDocLayout.aspx, Body only" />
+    </File>
+    <File Path="DiligencePages\Cachexia-Insights---Today-and-Tomorrow-.aspx" Url="Cachexia-Insights---Today-and-Tomorrow-.aspx" Type="GhostableInLibrary" >
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpz" ID="g_c90fb73f_0729_4e01_9d9a_3086f5a4e810">
+        <![CDATA[<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">Allows authors to insert HTML snippets or scripts.</property>
+        <property name="Content" type="string">&lt;style&gt;
+
+.Content h3, h2 {
+color:#003784;
+}
+
+.Content a {
+font-family:Microsoft YaHei; 
+font-size:13px;
+text-decoration:underline;
+}
+&lt;/style&gt;</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">Script Editor</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>]]>
+      </AllUsersWebPart>
+      <Property Name="ContentTypeId" Value="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00AC067A9BAC23B54BAAAFF2BD387A8308" />
+      <Property Name="FileLeafRef" Value="Cachexia-Insights---Today-and-Tomorrow-.aspx" />
+      <Property Name="Title" Value="Cachexia Insights - Today and Tomorrow " />
+      <Property Name="PublishingIsFurlPage" Value="FALSE" />
+      <Property Name="RobotsNoIndex" Value="FALSE" />
+      <Property Name="ContentType" Value="Article Page" />
+      <Property Name="_ModerationStatus" Value="0" />
+      <Property Name="FileDirRef" Value="Pages" />
+      <Property Name="FSObjType" Value="0" />
+      <Property Name="PublishingPageLayout" Value="~sitecollection/_catalogs/masterpage/PageFromDocLayout.aspx, Body only" />
+    </File>
+    <File Path="DiligencePages\CLL-Insights.aspx" Url="CLL-Insights.aspx" Type="GhostableInLibrary" >
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpz" ID="g_08a769ba_be39_4c94_9b04_12b2f892ac0a">
+        <![CDATA[<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">Allows authors to insert HTML snippets or scripts.</property>
+        <property name="Content" type="string">&lt;style&gt;
+
+.Content{
+color:#003784;
+}
+
+.Content a {
+font-family:Microsoft YaHei; 
+font-size:13px;
+text-decoration:underline;
+}
+
+.Content table {
+border:0px;
+border-collapse:collapse;
+border-spacing:0;
+}
+
+.Content tr, td {
+padding: 0 0 3px 10px;
+}
+
+.top {
+color:White;
+width:447px;
+height:34px;
+padding:0 0 0 10px;
+background-image:url('/sites/diligence/Style%20Library/DiligencePortal/images/Top.png');
+}
+
+.bottom {
+width:447px;
+height:34px;
+background-image:url('/sites/diligence/Style%20Library/DiligencePortal/images/Bottom.png');
+}
+
+.middle {
+background-color:#d1e1f3;
+height:100px;
+padding:0 10px 0 10px;
+font-family:Microsoft YaHei;
+font-size:13px;
+}
+.righttab 
+{
+    padding: 0px 0px 120px 80px;
+}
+&lt;/style&gt; </property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">Script Editor</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>]]>
+      </AllUsersWebPart>
+      <Property Name="ContentTypeId" Value="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00AC067A9BAC23B54BAAAFF2BD387A8308" />
+      <Property Name="FileLeafRef" Value="CLL-Insights.aspx" />
+      <Property Name="Title" Value="CLL Insights: Today and Tomorrow " />
+      <Property Name="PublishingIsFurlPage" Value="FALSE" />
+      <Property Name="RobotsNoIndex" Value="FALSE" />
+      <Property Name="ContentType" Value="Article Page" />
+      <Property Name="_ModerationStatus" Value="0" />
+      <Property Name="FileDirRef" Value="Pages" />
+      <Property Name="FSObjType" Value="0" />
+      <Property Name="PublishingPageLayout" Value="~sitecollection/_catalogs/masterpage/PageFromDocLayout.aspx, Body only" />
+    </File>
+    <File Path="DiligencePages\Diligence-Process.aspx" Url="Diligence-Process.aspx" Type="GhostableInLibrary" >
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpz" ID="g_48b36da0_8e85_4544_be5e_ea371b13adff">
+        <![CDATA[<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">Allows authors to insert HTML snippets or scripts.</property>
+        <property name="Content" type="string">&lt;style type="text/css"&gt;
+     .Content{font-family:Microsoft YaHei;height:25px;s}  
+     .Content p {padding:25px;} 
+     .Content tr {line-height:25px;}
+     .title{font-size:15px; color:#003784}   
+    &lt;/style&gt;</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">Script Editor</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>]]>
+      </AllUsersWebPart>
+      <Property Name="ContentTypeId" Value="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00AC067A9BAC23B54BAAAFF2BD387A8308" />
+      <Property Name="FileLeafRef" Value="Diligence-Process.aspx" />
+      <Property Name="Title" Value="Diligence Process" />
+      <Property Name="PublishingIsFurlPage" Value="FALSE" />
+      <Property Name="RobotsNoIndex" Value="FALSE" />
+      <Property Name="ContentType" Value="Article Page" />
+      <Property Name="_ModerationStatus" Value="0" />
+      <Property Name="FileDirRef" Value="Pages" />
+      <Property Name="FSObjType" Value="0" />
+      <Property Name="PublishingPageLayout" Value="~sitecollection/_catalogs/masterpage/PageFromDocLayout.aspx, Body only" />
+    </File>
+    <File Path="DiligencePages\Insights-in-Anticoagulant-Reversal-Agents---Today-and-Tomorrow-.aspx" Url="Insights-in-Anticoagulant-Reversal-Agents---Today-and-Tomorrow-.aspx" Type="GhostableInLibrary" >
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpz" ID="g_1e94192a_3e39_4369_b483_84293530aafb">
+        <![CDATA[<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">Allows authors to insert HTML snippets or scripts.</property>
+        <property name="Content" type="string">&lt;style&gt;
+
+.content h2 {
+color:#003784;
+}
+
+.content a {
+font-family:Microsoft YaHei; 
+font-size:13px;
+text-decoration:underline;
+}
+&lt;/style&gt;</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">Script Editor</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>]]>
+      </AllUsersWebPart>
+      <Property Name="ContentTypeId" Value="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00AC067A9BAC23B54BAAAFF2BD387A8308" />
+      <Property Name="FileLeafRef" Value="Insights-in-Anticoagulant-Reversal-Agents---Today-and-Tomorrow-.aspx" />
+      <Property Name="Title" Value="Insights in Anticoagulant Reversal Agents - Today and Tomorrow " />
+      <Property Name="PublishingIsFurlPage" Value="FALSE" />
+      <Property Name="RobotsNoIndex" Value="FALSE" />
+      <Property Name="ContentType" Value="Article Page" />
+      <Property Name="_ModerationStatus" Value="3" />
+      <Property Name="FileDirRef" Value="Pages" />
+      <Property Name="FSObjType" Value="0" />
+      <Property Name="PublishingPageLayout" Value="~sitecollection/_catalogs/masterpage/PageFromDocLayout.aspx, Body only" />
+    </File>
+    <File Path="DiligencePages\NHL-Insights.aspx" Url="NHL-Insights.aspx" Type="GhostableInLibrary" >
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="wpz" ID="g_f6e6d667_63f4_4cac_9a59_81a07bb4c8fe">
+        <![CDATA[<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">Allows authors to insert HTML snippets or scripts.</property>
+        <property name="Content" type="string">&lt;style&gt;
+
+.Content{
+color:#003784;
+}
+
+.Content a {
+font-family:Microsoft YaHei; 
+font-size:13px;
+text-decoration:underline;
+}
+
+.Content table {
+border:0px;
+border-collapse:collapse;
+border-spacing:0;
+}
+
+.Content tr, td {
+padding: 0 0 3px 10px;
+}
+
+.top {
+color:White;
+width:447px;
+height:34px;
+padding:0 0 0 10px;
+background-image:url('/sites/diligence/Style%20Library/DiligencePortal/images/Top.png');
+}
+
+.bottom {
+width:447px;
+height:34px;
+background-image:url('/sites/diligence/Style%20Library/DiligencePortal/images/Bottom.png');
+}
+
+.middle {
+background-color:#d1e1f3;
+height:100px;
+padding:0 10px 0 10px;
+font-family:Microsoft YaHei;
+font-size:13px;
+}
+.righttab 
+{
+    padding: 0px 0px 120px 80px;
+}
+&lt;/style&gt; </property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">Script Editor</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>]]>
+      </AllUsersWebPart>
+      <Property Name="ContentTypeId" Value="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00AC067A9BAC23B54BAAAFF2BD387A8308" />
+      <Property Name="FileLeafRef" Value="NHL-Insights.aspx" />
+      <Property Name="Title" Value="NHL Insights: Today &amp; Tomorrow " />
+      <Property Name="PublishingIsFurlPage" Value="FALSE" />
+      <Property Name="RobotsNoIndex" Value="FALSE" />
+      <Property Name="ContentType" Value="Article Page" />
+      <Property Name="_ModerationStatus" Value="3" />
+      <Property Name="FileDirRef" Value="Pages" />
+      <Property Name="FSObjType" Value="0" />
+      <Property Name="PublishingPageLayout" Value="~sitecollection/_catalogs/masterpage/PageFromDocLayout.aspx, Body only" />
+    </File>
+    <File Path="DiligencePages\View-Background-Information.aspx" Url="View-Background-Information.aspx" Type="GhostableInLibrary" >
+      <BinarySerializedWebPart>
+        <GUIDMap />
+        <WebPart ID="{c6512d2f-033d-4fd3-af5d-106d92ff1e26}" WebPartIdProperty="g_c20138bb_8763_4a79_9c70_4ef4a9994569" Version="17" Url="/Pages/View-Background-Information.aspx" WebPartOrder="0" WebPartZoneID="wpz" IsIncluded="True" FrameState="0" WPTypeId="{4c06cea2-364f-47e3-e1d7-08d53f441157}" AllUsers="AQUAAAACKgBKACkAAz0AAAIqAEkAKQADPgAAAQIAKQAD//8wJFJlc291cmNlczpjb3JlLENvbnRlbnRFZGl0b3JXZWJQYXJ0RGVzY3JpcHRpb247DwEgACkAA///Hy9fbGF5b3V0cy8xNS9pbWFnZXMvbXNjb250bC5naWYPAWwAKQAD//8mZ19jMjAxMzhiYl84NzYzXzRhNzlfOWM3MF80ZWY0YTk5OTQ1NjkPATsAWgAE///9BTxzdHlsZT4KCi5Db250ZW50IGgzLCBoMiB7CmNvbG9yOiMwMDM3ODQ7Cn0KCi5Db250ZW50IGEgewpmb250LWZhbWlseTpNaWNyb3NvZnQgWWFIZWk7IApmb250LXNpemU6MTNweDsKdGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTsKfQoKLkNvbnRlbnQgdGFibGUgewpib3JkZXI6MHB4Owpib3JkZXItY29sbGFwc2U6Y29sbGFwc2U7CmJvcmRlci1zcGFjaW5nOjA7Cn0KCi5Db250ZW50IHRoLCB0ZCB7CnBhZGRpbmc6MDsKfQoKLnRpdGxlIHsKY29sb3I6IzAwMzc4NDsKbWFyZ2luOjBweCAwcHggMHB4IDUwcHg7Cn0KCi50b3Agewpjb2xvcjpXaGl0ZTsKd2lkdGg6NDQ3cHg7CmhlaWdodDozNHB4OwpwYWRkaW5nOjAgMCAwIDEwcHg7CmJhY2tncm91bmQtaW1hZ2U6dXJsKCcvUHVibGlzaGluZ0ltYWdlcy9TaXRlUGFnZXMvSG9tZS90b3AucG5nJyk7Cn0KCi5ib3R0b20gewp3aWR0aDo0NDdweDsKaGVpZ2h0OjM0cHg7CmJhY2tncm91bmQtaW1hZ2U6dXJsKCcvUHVibGlzaGluZ0ltYWdlcy9TaXRlUGFnZXMvSG9tZS9ib3R0b20ucG5nJyk7Cn0KCi5taWRkbGUgewpiYWNrZ3JvdW5kLWNvbG9yOiNkMWUxZjM7CmhlaWdodDoxMDBweDsKcGFkZGluZzowIDEwcHggMCAxMHB4Owpmb250LWZhbWlseTpNaWNyb3NvZnQgWWFIZWk7CmZvbnQtc2l6ZToxM3B4Owp9CgouQ29udGVudExlZnQgewpmbG9hdDpsZWZ0OwptYXJnaW4tbGVmdDo1MHB4Owp9CgouQ29udGVudFJpZ2h0IHsKZmxvYXQ6cmlnaHQ7Cm1hcmdpbi1yaWdodDo1MHB4Owp9Cjwvc3R5bGU+IA8P" PerUser="AQUAAAACKgBKACkAAz0AAAIqAEkAKQADPgAAAQQAKQAD//8qJFJlc291cmNlczpjb3JlLENvbnRlbnRFZGl0b3JXZWJQYXJ0VGl0bGU7DwElACkAA0QADw8=" />
+      </BinarySerializedWebPart>
+      <Property Name="ContentTypeId" Value="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00AC067A9BAC23B54BAAAFF2BD387A8308" />
+      <Property Name="FileLeafRef" Value="View-Background-Information.aspx" />
+      <Property Name="Title" Value="View Background Information" />
+      <Property Name="PublishingIsFurlPage" Value="FALSE" />
+      <Property Name="RobotsNoIndex" Value="FALSE" />
+      <Property Name="ContentType" Value="Article Page" />
+      <Property Name="_ModerationStatus" Value="3" />
+      <Property Name="FileDirRef" Value="Pages" />
+      <Property Name="FSObjType" Value="0" />
+      <Property Name="PublishingPageLayout" Value="~sitecollection/_catalogs/masterpage/PageFromDocLayout.aspx, Body only" />
+    </File>
+  </Module>
+</Elements>

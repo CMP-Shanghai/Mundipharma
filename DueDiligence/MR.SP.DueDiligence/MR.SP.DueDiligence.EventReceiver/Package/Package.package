@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f5466940-ca66-4715-95dd-41c8aa3f4a53" solutionId="f5466940-ca66-4715-95dd-41c8aa3f4a53" resetWebServer="false" sharePointProductVersion="15.0" name="MR.SP.DueDiligence.EventReceiver" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="107de818-20eb-4c3d-ad42-b58b65bcc6cb" />
+  </features>
+</package>

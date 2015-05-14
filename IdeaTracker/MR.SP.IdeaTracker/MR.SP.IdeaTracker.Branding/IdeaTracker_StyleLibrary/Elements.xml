@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="IdeaTracker_StyleLibrary" Url="Style Library" RootWebOnly="true">
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\scripts\knockout-3.2.0.js" Url="IdeaTracker_StyleLibrary/IdeaTracker/scripts/knockout-3.2.0.js" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\scripts\jquery-1.11.1.min.js" Url="IdeaTracker_StyleLibrary/IdeaTracker/scripts/jquery-1.11.1.min.js" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\scripts\jquery-ui.min.js" Url="IdeaTracker_StyleLibrary/IdeaTracker/scripts/jquery-ui.min.js" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\css\jquery-ui.theme.min.css" Url="IdeaTracker_StyleLibrary/IdeaTracker/css/jquery-ui.theme.min.css" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\css\jquery-ui.min.css" Url="IdeaTracker_StyleLibrary/IdeaTracker/css/jquery-ui.min.css" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\css\jquery-ui.structure.min.css" Url="IdeaTracker_StyleLibrary/IdeaTracker/css/jquery-ui.structure.min.css" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_diagonals-thick_18_b81900_40x40.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_diagonals-thick_18_b81900_40x40.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_diagonals-thick_20_666666_40x40.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_diagonals-thick_20_666666_40x40.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_flat_10_000000_40x100.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_flat_10_000000_40x100.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_glass_65_ffffff_1x400.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_glass_65_ffffff_1x400.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_glass_100_f6f6f6_1x400.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_glass_100_f6f6f6_1x400.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_glass_100_fdf5ce_1x400.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_glass_100_fdf5ce_1x400.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_gloss-wave_35_f6a828_500x100.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_gloss-wave_35_f6a828_500x100.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-icons_228ef1_256x240.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-icons_228ef1_256x240.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-icons_222222_256x240.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-icons_222222_256x240.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-icons_ef8c08_256x240.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-icons_ef8c08_256x240.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-icons_ffd27a_256x240.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-icons_ffd27a_256x240.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\ui-icons_ffffff_256x240.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/ui-icons_ffffff_256x240.png" Type="GhostableInLibrary" />
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\ICONEXCEL.jpg" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Icons/ICONEXCEL.jpg" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\ICONOUTLOOK.jpg" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Icons/ICONOUTLOOK.jpg" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\ICONPDF.jpg" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Icons/ICONPDF.jpg" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\ICONPPT.jpg" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Icons/ICONPPT.jpg" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\ICONUNKNOWN.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Icons/ICONUNKNOWN.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Icons\ICONWORD.jpg" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Icons/ICONWORD.jpg" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\BlackBg.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/BlackBg.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\BlackC.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/BlackC.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\BlackE.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/BlackE.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\BlackO.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/BlackO.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\BlackR.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/BlackR.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\BlackS.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/BlackS.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\GrayBg.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/GrayBg.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\GrayC.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/GrayC.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\GrayE.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/GrayE.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\GrayO.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/GrayO.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\GrayR.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/GrayR.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Stages\GrayS.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Stages/GrayS.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Classification.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Classification.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\images\Decision.png" Url="IdeaTracker_StyleLibrary/IdeaTracker/images/Decision.png" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\css\IdeaCSS.css" Url="IdeaTracker_StyleLibrary/IdeaTracker/css/IdeaCSS.css" Type="GhostableInLibrary"/>
+    <File Path="IdeaTracker_StyleLibrary\IdeaTracker\css\ideaviewCSS.css" Url="IdeaTracker_StyleLibrary/IdeaTracker/css/ideaviewCSS.css" Type="GhostableInLibrary"/>
+  </Module>
+</Elements>

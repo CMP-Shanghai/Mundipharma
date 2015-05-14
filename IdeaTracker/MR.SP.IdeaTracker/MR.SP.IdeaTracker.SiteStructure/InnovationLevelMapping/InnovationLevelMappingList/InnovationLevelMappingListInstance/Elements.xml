@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Innovation Level Mapping" OnQuickLaunch="TRUE" TemplateType="10003" Url="Lists/Innovation Level Mapping" Description="Innovation Level Mapping Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Low</Field>
+          <Field Name="Score">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Medium Low</Field>
+          <Field Name="Score">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Medium High</Field>
+          <Field Name="Score">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">High</Field>
+          <Field Name="Score">4</Field>
+        </Row>
+      </Rows>
+    </Data>    
+  </ListInstance>
+</Elements>

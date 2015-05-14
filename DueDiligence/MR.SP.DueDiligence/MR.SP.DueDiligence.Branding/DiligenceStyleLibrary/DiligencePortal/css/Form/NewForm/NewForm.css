@@ -1,0 +1,38 @@
+﻿.formTopBar {
+    background-color:#1780C7;
+    height:38px;
+    color:White;
+    padding-left:8px;
+    padding-top:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.tdLeft {
+    background-color:#1780C7;
+    padding-left:8px;
+}
+
+.tdLeft h3 {
+    padding-right:10px;
+    text-align:right;
+    font-size:13px;
+    color:White;
+    font-weight:bold;
+}
+.tdLeft h3 nobr
+{
+	color:White;
+	font-weight:bold;
+}
+
+.ms-formbody 
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.ms-long, textarea, .ms-usereditor{ 
+	width:350px;
+}

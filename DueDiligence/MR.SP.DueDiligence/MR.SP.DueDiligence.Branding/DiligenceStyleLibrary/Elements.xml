@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="DiligenceStyleLibrary" Url="Style Library">
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\Form\DocumentWebPart.css" Url="DiligencePortal/css/Form/DocumentWebPart.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\Form\DisplayForm\DisplayForm.css" Url="DiligencePortal/css/Form/DisplayForm/DisplayForm.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\Form\EditForm\EditForm.css" Url="DiligencePortal/css/Form/EditForm/EditForm.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\Form\NewForm\NewForm.css" Url="DiligencePortal/css/Form/NewForm/NewForm.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\LandingPage\jquery-ui.css" Url="DiligencePortal/css/LandingPage/jquery-ui.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\jquery-1.11.1.min.js" Url="DiligencePortal/scripts/jquery-1.11.1.min.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\jquery.SPServices-2014.01.min.js" Url="DiligencePortal/scripts/jquery.SPServices-2014.01.min.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\Form\DisplayForm\DisplayForm.js" Url="DiligencePortal/scripts/Form/DisplayForm/DisplayForm.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\Form\DisplayForm\SendMailButtonAndEditButton.js" Url="DiligencePortal/scripts/Form/DisplayForm/SendMailButtonAndEditButton.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\Form\EditForm\EditForm.js" Url="DiligencePortal/scripts/Form/EditForm/EditForm.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\Form\EditForm\SendMail.js" Url="DiligencePortal/scripts/Form/EditForm/SendMail.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\Form\NewForm\NewForm.js" Url="DiligencePortal/scripts/Form/NewForm/NewForm.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\FunctionalAreas.js" Url="DiligencePortal/scripts/LandingPage/FunctionalAreas.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\Headlines.js" Url="DiligencePortal/scripts/LandingPage/Headlines.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\jquery-1.10.2.js" Url="DiligencePortal/scripts/LandingPage/jquery-1.10.2.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\jquery-ui.js" Url="DiligencePortal/scripts/LandingPage/jquery-ui.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\ProjectsByData.js" Url="DiligencePortal/scripts/LayoutPages/ProjectsByData.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\SendMail.js" Url="DiligencePortal/scripts/LayoutPages/SendMail.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\blue.png" Url="DiligencePortal/images/blue.png" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\Bottom.png" Url="DiligencePortal/images/Bottom.png" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\green.png" Url="DiligencePortal/images/green.png" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\LOGO.jpg" Url="DiligencePortal/images/LOGO.jpg" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\Picture1.png" Url="DiligencePortal/images/Picture1.png" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\Picture2.png" Url="DiligencePortal/images/Picture2.png" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\purple.png" Url="DiligencePortal/images/purple.png" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\red.png" Url="DiligencePortal/images/red.png" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\Top.png" Url="DiligencePortal/images/Top.png" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\LandingPage.js" Url="DiligencePortal/scripts/LandingPage/LandingPage.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\landingpage\PageConfiguration.xml" Url="DiligencePortal/landingpage/PageConfiguration.xml" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\View\LinkToReport.js" Url="DiligencePortal/scripts/View/LinkToReport.js" Type="GhostableInLibrary"/>
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\DDCount.png" Url="DiligencePortal/images/DDCount.png" Type="GhostableInLibrary"/>
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\publicMethod.js" Url="DiligencePortal/scripts/publicMethod.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\ddglobal.css" Url="DiligencePortal/css/ddglobal.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\View\RemoveLookupFieldLink.js" Url="DiligencePortal/scripts/View/RemoveLookupFieldLink.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\ddreports.css" Url="DiligencePortal/css/Layoutpages/ddreports.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\ddsendmail.css" Url="DiligencePortal/css/Layoutpages/ddsendmail.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\ddkeycontacts.css" Url="DiligencePortal/css/Layoutpages/ddkeycontacts.css" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\KeyContacts.js" Url="DiligencePortal/scripts/LayoutPages/KeyContacts.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\LandingPage.html" Url="DiligencePortal/scripts/Configuration File/LandingPage.html" Type="GhostableInLibrary"/>
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\LandingPage_CEWP.html" Url="DiligencePortal/scripts/Configuration File/LandingPage_CEWP.html" Type="GhostableInLibrary"/>
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\Ribbon.html" Url="DiligencePortal/scripts/Configuration File/Ribbon.html" Type="GhostableInLibrary"/>
+    <File Path="DiligenceStyleLibrary\DiligencePortal\scripts\MR.SP.DueDiligence.CopyFile.js" Url="DiligencePortal/scripts/MR.SP.DueDiligence.CopyFile.js" Type="GhostableInLibrary" />
+    <File Path="DiligenceStyleLibrary\DiligencePortal\images\DD pic.png" Url="DiligenceStyleLibrary/DiligencePortal/images/DD pic.png" />
+  </Module>
+</Elements>

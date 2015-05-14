@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA9D9176-E92E-41B8-A741-B797032DE0A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MR.SP.IdeaTracker.SiteStructure</RootNamespace>
+    <AssemblyName>MR.SP.IdeaTracker.SiteStructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>%24/MunidpharmaIdeaTracker/IdeaTracker/MR.SP.IdeaTracker/MR.SP.IdeaTracker.SiteStructure</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://cygnus.cognizant.com/tfs/mundipharma</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <FileUpgradeFlags />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IdeaActions\IdeaActionsCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{df726194-794a-43f1-b9e6-150335904b2f}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaActions\IdeaActionsList\IdeaActionsListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dc18f344-7880-428b-842a-6002654b30fc}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaActions\IdeaActionsList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{67116dad-2f1e-4086-99ab-4e0b4594d7f7}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFeedback\IdeaFeedbackCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{913b7d5d-7959-49c6-85f8-97c0fde94336}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFeedback\IdeaFeedbackList\IdeaFeedbackListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cd19d23c-6e3d-4862-b593-ab30b0c1b63d}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFeedback\IdeaFeedbackList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{46e5c192-8273-48f7-a1d4-556cbce0f825}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFeeds\IdeaFeedsCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2149b698-1d48-4418-b9e9-bd2159f91f2e}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFeeds\IdeaFeedsList\IdeaFeedsListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9a5fb297-8e06-464f-888f-7612a82cfaaa}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFeeds\IdeaFeedsList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ecdd96b9-14cd-43f2-b1fa-82bebe6ba1d6}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFiles\IdeaFilesCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e276ba5e-de54-4e3c-9312-97f3858d18a5}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFiles\IdeaFilesLibrary\IdeaFilesLibraryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9c89a1f6-9a77-46e5-8d84-c8ae01a34497}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaFiles\IdeaFilesLibrary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6256dbc4-bc23-44d5-98fe-a3ff9b017229}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaInnovationTracker\InnovationTrackerCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b8751459-d8c9-4848-8d90-2ffa3b719ddf}</SharePointProjectItemId>
+    </None>
+    <None Include="Fields\IdeaFields\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3995630d-956f-4656-8c9b-dd233497d9eb}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaInnovationTracker\InnovationTrackerList\InnovationTrackerListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{eac62ea8-405c-4b0e-bbf8-40330e512409}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaInnovationTracker\InnovationTrackerList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8b505fc2-4068-441a-bd9f-7e77569cce59}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaMinutes\IdeaMinutesList\IdeaMinutesListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2888aaf4-741e-4109-b08a-d64fa2ef74b1}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaMinutes\IdeaMinutesList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0f283894-a2a5-48e5-9fcd-8c1011177d75}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaMinutes\MRIdeaMinutesCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b0f042b6-5900-4418-ad01-9e0ee96a53e8}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaTrackerList\IdeaTrackerList\IdeaTrackerListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1e46ba57-17be-4194-bc24-0e1ea72d685e}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaTrackerList\IdeaTrackerList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{70005095-4b53-4ee0-9d2e-8baf6a63bd29}</SharePointProjectItemId>
+    </None>
+    <None Include="IdeaTrackerList\MRIdeaTrackerCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7bb10dc8-0a32-461b-8513-d32eb089d249}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\MR.SP.IdeaTracker.SiteStructure\MR.SP.IdeaTracker.SiteStructure.feature">
+      <FeatureId>{a0ae3e00-0dca-4c57-b10f-9a3ce029fb7a}</FeatureId>
+    </None>
+    <None Include="InnovationIndexMaster\InnovationIndexMasterCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cb58beac-70ac-41f0-b32c-b0025c7b0203}</SharePointProjectItemId>
+    </None>
+    <None Include="InnovationIndexMaster\InnovationIndexMasterList\InnovationIndexMasterListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1195030f-b3dc-4cf6-8263-53d0900a937c}</SharePointProjectItemId>
+    </None>
+    <None Include="InnovationIndexMaster\InnovationIndexMasterList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9ddd165c-d458-47e2-8dd7-2a189aa40d5a}</SharePointProjectItemId>
+    </None>
+    <None Include="InnovationLevelMapping\InnovationLevelMappingCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7e7ad273-2d4b-45ac-b1c7-a6bed0b1562e}</SharePointProjectItemId>
+    </None>
+    <None Include="InnovationLevelMapping\InnovationLevelMappingList\InnovationLevelMappingListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e7072834-b124-4a25-aa19-26eaa29bfd9b}</SharePointProjectItemId>
+    </None>
+    <None Include="InnovationLevelMapping\InnovationLevelMappingList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1023f514-fe46-4d66-83e5-6835b5ba23c2}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Lists\KeywordsList\KeywordsListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4fd34a2f-25d6-4a39-b24c-4750643c0e13}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\KeywordsList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{37502b56-c501-4899-9094-b4e6dd907951}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{5ebce0d7-7039-453e-801a-c382b2d687cd}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="IdeaActions\IdeaActionsCT\Elements.xml" />
+    <Content Include="IdeaActions\IdeaActionsList\Elements.xml" />
+    <Content Include="IdeaActions\IdeaActionsList\IdeaActionsListInstance\Elements.xml" />
+    <Content Include="IdeaActions\IdeaActionsList\Schema.xml" />
+    <Content Include="IdeaFeedback\IdeaFeedbackCT\Elements.xml" />
+    <Content Include="IdeaFeedback\IdeaFeedbackList\Elements.xml" />
+    <Content Include="IdeaFeedback\IdeaFeedbackList\IdeaFeedbackListInstance\Elements.xml" />
+    <Content Include="IdeaFeedback\IdeaFeedbackList\Schema.xml" />
+    <Content Include="IdeaFeeds\IdeaFeedsCT\Elements.xml" />
+    <Content Include="IdeaFeeds\IdeaFeedsList\Elements.xml" />
+    <Content Include="IdeaFeeds\IdeaFeedsList\IdeaFeedsListInstance\Elements.xml" />
+    <Content Include="IdeaFeeds\IdeaFeedsList\Schema.xml" />
+    <Content Include="IdeaFiles\IdeaFilesCT\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="IdeaFiles\IdeaFilesLibrary\EditDlg.htm" />
+    <Content Include="IdeaFiles\IdeaFilesLibrary\Elements.xml" />
+    <Content Include="IdeaFiles\IdeaFilesLibrary\FileDlg.htm" />
+    <Content Include="IdeaFiles\IdeaFilesLibrary\IdeaFilesLibraryInstance\Elements.xml" />
+    <Content Include="IdeaFiles\IdeaFilesLibrary\Repair.aspx" />
+    <Content Include="IdeaFiles\IdeaFilesLibrary\Schema.xml" />
+    <Content Include="IdeaFiles\IdeaFilesLibrary\Upload.aspx" />
+    <Content Include="IdeaInnovationTracker\InnovationTrackerCT\Elements.xml" />
+    <Content Include="Fields\IdeaFields\Elements.xml" />
+    <Content Include="IdeaInnovationTracker\InnovationTrackerList\Elements.xml" />
+    <Content Include="IdeaInnovationTracker\InnovationTrackerList\InnovationTrackerListInstance\Elements.xml" />
+    <Content Include="IdeaInnovationTracker\InnovationTrackerList\Schema.xml" />
+    <Content Include="IdeaMinutes\IdeaMinutesList\Elements.xml" />
+    <Content Include="IdeaMinutes\IdeaMinutesList\IdeaMinutesListInstance\Elements.xml" />
+    <Content Include="IdeaMinutes\IdeaMinutesList\Schema.xml" />
+    <Content Include="IdeaMinutes\MRIdeaMinutesCT\Elements.xml" />
+    <Content Include="IdeaTrackerList\IdeaTrackerList\Elements.xml" />
+    <Content Include="IdeaTrackerList\IdeaTrackerList\IdeaTrackerListInstance\Elements.xml" />
+    <Content Include="IdeaTrackerList\IdeaTrackerList\Schema.xml" />
+    <Content Include="IdeaTrackerList\MRIdeaTrackerCT\Elements.xml" />
+    <Content Include="Features\MR.SP.IdeaTracker.SiteStructure\MR.SP.IdeaTracker.SiteStructure.Template.xml">
+      <DependentUpon>MR.SP.IdeaTracker.SiteStructure.feature</DependentUpon>
+    </Content>
+    <Content Include="InnovationIndexMaster\InnovationIndexMasterCT\Elements.xml" />
+    <Content Include="InnovationIndexMaster\InnovationIndexMasterList\Elements.xml" />
+    <Content Include="InnovationIndexMaster\InnovationIndexMasterList\InnovationIndexMasterListInstance\Elements.xml" />
+    <Content Include="InnovationIndexMaster\InnovationIndexMasterList\Schema.xml" />
+    <Content Include="InnovationLevelMapping\InnovationLevelMappingCT\Elements.xml" />
+    <Content Include="InnovationLevelMapping\InnovationLevelMappingList\Elements.xml" />
+    <Content Include="InnovationLevelMapping\InnovationLevelMappingList\InnovationLevelMappingListInstance\Elements.xml" />
+    <Content Include="InnovationLevelMapping\InnovationLevelMappingList\Schema.xml" />
+    <Content Include="Lists\KeywordsList\Elements.xml" />
+    <Content Include="Lists\KeywordsList\KeywordsListInstance\Elements.xml" />
+    <Content Include="Lists\KeywordsList\Schema.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

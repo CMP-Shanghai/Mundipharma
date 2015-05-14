@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+<Field Name="Description1" ID="{7e318e86-8d2d-4657-a06d-8a1eb09d1ab8}" DisplayName="Description" Type="Note" />
+<Field Name="IdeaID" ID="{188d0bb3-92ac-4423-b54f-e5dbe27a49d7}" DisplayName="IdeaID" Type="Lookup" />
+<Field Name="Choice" ID="{e92b7070-86ff-4b07-8516-5064963a8abf}" DisplayName="Choice" Type="Choice" Format="Dropdown" />
+<Field Name="Choice_x005f_Radio" ID="{8aa429a6-287f-4bbe-a1ff-3426805a84ce}" DisplayName="Choice_Radio" Type="Choice" Format="RadioButtons" />
+<Field Name="test" ID="{86f96dee-da83-4d03-bf5f-514dac0affb6}" DisplayName="MultiCHoice" Type="LookupMulti" Mult="TRUE" />
+<Field Name="a" ID="{e5a1366b-2f6e-4e89-bef1-721d759a82ea}" DisplayName="Originator" Type="User" />
+<Field Name="a1" ID="{368ae458-151a-47eb-bed9-bf2f0d1b3dc9}" DisplayName="date" Type="DateTime" Format="DateOnly" Viewable="TRUE" />
+<Field Name="a2" ID="{0a0668e6-3cb7-4939-9d8a-a5904fe615bd}" DisplayName="number" Type="Number" />
+<Field Name="a3" ID="{55e7c047-f6a3-4ffd-95d9-f55466ed8072}" DisplayName="multiUser" Type="UserMulti" Mult="TRUE" />
+<Field Name="a4" ID="{8c134503-15a7-4adc-93a5-1a18ee2b81b3}" DisplayName="a" Type="Text" />
+</Fields>
+
+<!--Name : Title
+DisplayName
+Type: Text, Note, Lookup, Choice(Format: Dropdown, RadioButton), LookupMulti (Mult="TRUE"), User, DateTime (Format: DateOnly), Number, NuserMulti (Mult="TRUE")
+Required-->

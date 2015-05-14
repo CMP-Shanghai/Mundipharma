@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F386D4B7-414D-4682-B396-AB4651084CCB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MR.SP.DueDiligence.Branding</RootNamespace>
+    <AssemblyName>MR.SP.DueDiligence.Branding</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Server, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.Office.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Server.UserProfiles, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.Office.Server.UserProfiles.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Security, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseFeatureReceiver.cs" />
+    <Compile Include="ControlTemplates\MR.SP.DueDiligence\GlobalDelegate.ascx.cs">
+      <DependentUpon>GlobalDelegate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\MR.SP.DueDiligence\GlobalDelegate.ascx.designer.cs">
+      <DependentUpon>GlobalDelegate.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MR.SP.DueDiligence.ApplyMasterPage\MR.SP.DueDiligence.EventReceiver.cs">
+      <DependentUpon>MR.SP.DueDiligence.ApplyMasterPage.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MR.SP.DueDiligence.CreateLeftNavigation\MR.SP.DueDiligence.EventReceiver.cs">
+      <DependentUpon>MR.SP.DueDiligence.CreateLeftNavigation.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MR.SP.DueDiligence.CreateView\MR.SP.DueDiligence.EventReceiver.cs">
+      <DependentUpon>MR.SP.DueDiligence.CreateView.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\MR.SP.DueDiligence.LandingPage\MR.SP.DueDiligence.EventReceiver.cs">
+      <DependentUpon>MR.SP.DueDiligence.LandingPage.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WikiPageCreator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{08dbb186-22d8-4487-878f-67937d34d9c5}</SharePointProjectItemId>
+    </None>
+    <None Include="DiligenceLeftNavigation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d20fb9be-492b-45a6-a0cd-dae6748104d0}</SharePointProjectItemId>
+    </None>
+    <None Include="DiligenceMasterPage\DiligencePortal.master" />
+    <None Include="DiligenceMasterPage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{70cf1613-1320-4cb1-81c9-6a44965ded18}</SharePointProjectItemId>
+    </None>
+    <None Include="DiligenceStyleLibrary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1a6aa010-a6a4-4585-b537-8e095d7ad61f}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.GlobalDelegate\MR.SP.DueDiligence.GlobalDelegate.feature">
+      <FeatureId>{5490d69d-b8e6-465a-8e2f-8999c3d63b45}</FeatureId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.LandingPage\MR.SP.DueDiligence.LandingPage.feature">
+      <FeatureId>{75b2c1c4-b43a-43f2-8441-a70a1b67bf55}</FeatureId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.CreateLeftNavigation\MR.SP.DueDiligence.CreateLeftNavigation.feature">
+      <FeatureId>{65ffb848-5ebb-4218-8b0c-797be23f5869}</FeatureId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.CreateView\MR.SP.DueDiligence.CreateView.feature">
+      <FeatureId>{c66b4fb5-beb1-427f-ae2f-7664f1a84885}</FeatureId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.ApplyMasterPage\MR.SP.DueDiligence.ApplyMasterPage.feature">
+      <FeatureId>{e1a95789-2575-40cd-b6b5-abec940e26e0}</FeatureId>
+    </None>
+    <None Include="Features\MR.SP.DueDiligence.Branding\MR.SP.DueDiligence.Branding.feature">
+      <FeatureId>{b8adf682-7413-4947-aec8-20b13a9aeccd}</FeatureId>
+    </None>
+    <None Include="GlobalDelegate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a7eed6ae-1ff9-4d5b-af7b-e4f82d863c2c}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{58f03d02-d6e4-4ff6-97fc-85bdad53b117}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MR.SP.DueDiligence.WebPart\MR.SP.DueDiligence.WebPart.csproj">
+      <Project>{1f269d9b-52f3-458c-be9d-59f3154064e6}</Project>
+      <Name>MR.SP.DueDiligence.WebPart</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MR.SP.DueDiligence\MR.SP.DueDiligence.Framework.csproj">
+      <Project>{67a8dcb7-aa94-4daf-adf0-85854a55e149}</Project>
+      <Name>MR.SP.DueDiligence.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlTemplates\MR.SP.DueDiligence\GlobalDelegate.ascx" />
+    <Content Include="DiligenceLeftNavigation\CustomSiteNavigation\CreateSiteNavigation.xml" />
+    <Content Include="DiligenceLeftNavigation\Elements.xml" />
+    <Content Include="DiligenceMasterPage\Elements.xml" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\ddglobal.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\Form\DisplayForm\DisplayForm.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\Form\DocumentWebPart.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\Form\EditForm\EditForm.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\Form\NewForm\NewForm.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\LandingPage\jquery-ui.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\ddkeycontacts.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\ddreports.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\css\Layoutpages\ddsendmail.css" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\blue.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\Bottom.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\DD pic.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\DDCount.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\green.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\LOGO.jpg" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\Picture1.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\Picture2.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\purple.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\red.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\images\Top.png" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\landingpage\PageConfiguration.xml" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\LandingPage.html" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\LandingPage_CEWP.html" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\Configuration File\Ribbon.html" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\Form\DisplayForm\DisplayForm.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\Form\DisplayForm\SendMailButtonAndEditButton.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\Form\EditForm\EditForm.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\Form\EditForm\SendMail.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\Form\NewForm\NewForm.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\jquery-1.11.1.min.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\jquery.SPServices-2014.01.min.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\FunctionalAreas.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\Headlines.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\jquery-1.10.2.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\jquery-ui.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\LandingPage\LandingPage.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\KeyContacts.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\ProjectsByData.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\LayoutPages\SendMail.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\MR.SP.DueDiligence.CopyFile.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\publicMethod.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\View\LinkToReport.js" />
+    <Content Include="DiligenceStyleLibrary\DiligencePortal\scripts\View\RemoveLookupFieldLink.js" />
+    <Content Include="DiligenceStyleLibrary\Elements.xml" />
+    <Content Include="Features\MR.SP.DueDiligence.GlobalDelegate\MR.SP.DueDiligence.GlobalDelegate.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.GlobalDelegate.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\MR.SP.DueDiligence.LandingPage\MR.SP.DueDiligence.LandingPage.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.LandingPage.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\MR.SP.DueDiligence.CreateLeftNavigation\MR.SP.DueDiligence.CreateLeftNavigation.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.CreateLeftNavigation.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\MR.SP.DueDiligence.CreateView\MR.SP.DueDiligence.CreateView.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.CreateView.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\MR.SP.DueDiligence.ApplyMasterPage\MR.SP.DueDiligence.ApplyMasterPage.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.ApplyMasterPage.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\MR.SP.DueDiligence.Branding\MR.SP.DueDiligence.Branding.Template.xml">
+      <DependentUpon>MR.SP.DueDiligence.Branding.feature</DependentUpon>
+    </Content>
+    <Content Include="GlobalDelegate\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

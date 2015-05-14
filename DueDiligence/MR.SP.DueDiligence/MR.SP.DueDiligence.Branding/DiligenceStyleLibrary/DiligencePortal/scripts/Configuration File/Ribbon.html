@@ -1,0 +1,38 @@
+﻿<script type="text/javascript">
+    function ResetRibbon() {
+        try {
+            var ribbon = SP.Ribbon.PageManager.get_instance().get_ribbon();
+            SelectRibbonTab("Ribbon.Read", true);
+            ribbon.removeChild("Ribbon.ListForm.Display") //Display Form;
+            ribbon.removeChild("Ribbon.ListForm.Edit");  //Edit Form & New Form
+            ribbon.removeChild("Ribbon.WebPartPage");  //New Form
+        } catch (e)
+        { }
+    }
+
+    SP.SOD.executeOrDelayUntilScriptLoaded(function () {
+        try {
+            var pm = SP.Ribbon.PageManager.get_instance();
+
+            pm.add_ribbonInited(function () {
+                ResetRibbon();
+            });
+
+            var ribbon = null;
+            try {
+                ribbon = pm.get_ribbon();
+            }
+            catch (e) { }
+
+            if (!ribbon) {
+                if (typeof (_ribbonStartInit) == "function")
+                    _ribbonStartInit(_ribbon.initialTabId, false, null);
+            }
+            else {
+                ResetRibbon();
+            }
+        } catch (e)
+        { }
+    }, "sp.ribbon.js");
+
+</script>

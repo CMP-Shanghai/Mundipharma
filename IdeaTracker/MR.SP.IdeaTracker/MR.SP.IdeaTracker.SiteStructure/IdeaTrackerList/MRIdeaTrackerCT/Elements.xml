@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100FB883B4CF737419D82D3F074B5BBFC6E" Name="MRIdeaTrackerCT" Group="MR.IdeaTracker.ContentTypes" Description="MRIdeaTrackerCT Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <!-- Title -->
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Required="FALSE" DisplayName="Title" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-001f90d4a7fd}" Name="IDescription" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-301f90d4a7fd}" DisplayName="Summary" Required="FALSE" Name="ISummary" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-011f90d4a7fd}" Name="IOriginator" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-021f90d4a7fd}" Name="ICountry" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-031f90d4a7fd}" Name="IExternal" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-041f90d4a7fd}" Name="IExtParticipants" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-051f90d4a7fd}" Name="ISource" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-061f90d4a7fd}" Name="ISourceDetail" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-071f90d4a7fd}" Name="ILevel" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-081f90d4a7fd}" Name="IRedirect" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-091f90d4a7fd}" Name="IStage" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-101f90d4a7fd}" Name="ICreatedDate" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-111f90d4a7fd}" Name="IScreeningDate" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-121f90d4a7fd}" Name="ICrossFuncDate" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-131f90d4a7fd}" Name="IOverviewDate" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-141f90d4a7fd}" Name="IReviewDate" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-151f90d4a7fd}" Name="IExecutionDate" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-161f90d4a7fd}" Name="IPiDescrition" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-171f90d4a7fd}" Name="ITheraupeticArea" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-181f90d4a7fd}" Name="IChemicalEntities" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-191f90d4a7fd}" Name="IRepurposing" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-201f90d4a7fd}" Name="IKeywords" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-211f90d4a7fd}" Name="INewProcess" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-221f90d4a7fd}" Name="IUnMetNeeds" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-231f90d4a7fd}" Name="IChampion" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-241f90d4a7fd}" Name="IParticipants" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-251f90d4a7fd}" Name="IReviewPace" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-261f90d4a7fd}" Name="IJustification" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-271f90d4a7fd}" Name="IMeetingMinutes" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-281f90d4a7fd}" Name="IDecisions" Hidden="FALSE" />
+      <FieldRef ID="{efb7cdc6-3590-4447-a167-291f90d4a7fd}" Name="IQnA" Hidden="FALSE" />
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+        <FormTemplates>
+          <Display>ListForm</Display>
+          <Edit>ListForm</Edit>
+          <New>ListForm</New>
+        </FormTemplates>
+      </XmlDocument>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls>
+          <Edit>/_Layouts/MR.SP.IdeaTracker.Pages/IdeaEditPage.aspx</Edit>
+          <Display>/SitePages/IdeaViewPage.aspx</Display>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

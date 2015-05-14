@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ec9f671d-5d3a-4243-bb2b-3aeb5ae1d313" solutionId="ec9f671d-5d3a-4243-bb2b-3aeb5ae1d313" resetWebServer="false" sharePointProductVersion="15.0" name="MR.SP.DueDiligence.Pages" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="da3e146c-3892-4c5a-9aa2-c3ff99c8fd81" />
+    <featureReference itemId="8946ef10-a579-4516-93d8-83a4b19e2c7e" />
+    <featureReference itemId="5ecb1cd4-ddee-4fb9-a9c5-de68487fef03" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="66bc1d21-bc8a-4bf2-9420-6aba61b4893e" />
+    <projectItemReference itemId="e0878e0c-c622-4ca5-923c-4c6e5a8b04ab" />
+  </projectItems>
+</package>

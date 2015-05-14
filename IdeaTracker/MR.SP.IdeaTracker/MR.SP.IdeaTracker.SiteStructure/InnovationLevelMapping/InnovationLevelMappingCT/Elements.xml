@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100A3A36A380D8040D8991249A6A94EB510" Name="Innovation Level Mapping Content Type" 
+               Group="MR.IdeaTracker.ContentTypes" 
+               Description="Innovation Level MappingContent Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{905c93c2-bb47-4619-a512-9cfb3324ef92}" DisplayName="Score" Required="TRUE" Name="IScore" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
